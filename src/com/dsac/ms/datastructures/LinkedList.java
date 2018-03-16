@@ -48,7 +48,7 @@ public class LinkedList<T> {
         while (curr != null) {
             str.append(curr.getValue().toString());
             str.append(delim);
-            curr = curr.getNext();
+            curr = curr.getRight();
         }
 
         if (delim.equals(" ")) {
@@ -65,8 +65,8 @@ public class LinkedList<T> {
         }
 
         Node<T> curr = root;
-        while (curr.getNext() != null) {
-            curr = curr.getNext();
+        while (curr.getRight() != null) {
+            curr = curr.getRight();
         }
         return curr;
     }
@@ -76,12 +76,12 @@ public class LinkedList<T> {
         Node<T> curr = root;
 
         if (retPrevious) {
-            while (curr.getNext() != null && !curr.getNext().getValue().equals(value)) {
-                curr = curr.getNext();
+            while (curr.getRight() != null && !curr.getRight().getValue().equals(value)) {
+                curr = curr.getRight();
             }
         } else {
             while (curr != null && !curr.getValue().equals(value)) {
-                curr = curr.getNext();
+                curr = curr.getRight();
             }
         }
         return curr;
@@ -95,7 +95,7 @@ public class LinkedList<T> {
 
         Node<T> target = initial;
         for (int i = 0; i < offset; i++) {
-            target = target.getNext();
+            target = target.getRight();
             if (target == null) {
                 break;
             }
@@ -111,7 +111,7 @@ public class LinkedList<T> {
         if (lastNode == null) {
             root = newNode;
         } else {
-            lastNode.setNext(newNode);
+            lastNode.setRight(newNode);
         }
         size++;
     }
@@ -119,7 +119,7 @@ public class LinkedList<T> {
     // Time complexity: O(1).
     public void prepend(T value) {
         Node<T> node = new Node<>(value);
-        node.setNext(root);
+        node.setRight(root);
         root = node;
         size++;
     }
@@ -137,7 +137,7 @@ public class LinkedList<T> {
 
         Node<T> initial = findNode(value, true);
         Node<T> target = skipNodes(initial, 2);
-        initial.setNext(target);
+        initial.setRight(target);
         size--;
     }
 }

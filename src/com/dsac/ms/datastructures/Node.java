@@ -2,7 +2,7 @@ package com.dsac.ms.datastructures;
 
 public class Node<T> {
     private T value;
-    private Node<T> next;
+    private Node<T> right;
 
     public Node(T value) {
         this.value = value;
@@ -12,15 +12,15 @@ public class Node<T> {
         return value;
     }
 
-    public Node<T> getNext() {
-        return next;
-    }
-
-    public void setNext(Node<T> newNode) {
-        next = newNode;
+    public Node<T> getRight() {
+        return right;
     }
 
     public void setValue(T value) {
         this.value = value;
+    }
+
+    public void setRight(Node<T> newNode) {
+        right = newNode;
     }
 }
