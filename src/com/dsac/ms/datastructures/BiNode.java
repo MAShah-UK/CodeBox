@@ -1,6 +1,6 @@
 package com.dsac.ms.datastructures;
 
-// Bidrectional nodes.
+// Bidirectional node.
 public class BiNode<T> extends Node<T> {
     private BiNode<T> previous;
 
