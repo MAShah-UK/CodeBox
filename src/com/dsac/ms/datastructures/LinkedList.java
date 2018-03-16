@@ -72,10 +72,10 @@ public class LinkedList<T> {
     }
 
     // Returns null if no node found with value.
-    private Node<T> findNode(T value, boolean retOneBefore) {
+    private Node<T> findNode(T value, boolean retPrevious) {
         Node<T> curr = root;
 
-        if (retOneBefore) {
+        if (retPrevious) {
             while (curr.getNext() != null && !curr.getNext().getValue().equals(value)) {
                 curr = curr.getNext();
             }
@@ -129,18 +129,15 @@ public class LinkedList<T> {
         size = 0;
     }
 
-    public void deleteWithValue(T value) {
-        if (root == null) {
+    public void delete(T value) {
+        if (size < 2) {
+            clear();
             return;
         }
 
         Node<T> initial = findNode(value, true);
-        if (initial == root) {
-            clear();
-        } else {
-            Node<T> target = skipNodes(initial, 2);
-            initial.setNext(target);
-        }
+        Node<T> target = skipNodes(initial, 2);
+        initial.setNext(target);
         size--;
     }
 }
