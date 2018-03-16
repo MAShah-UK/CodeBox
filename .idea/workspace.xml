@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb999888-d496-4404-935e-f8c32f61e668" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/dsac/ms/datastructures/LinkedList.java" afterPath="$PROJECT_DIR$/src/com/dsac/ms/datastructures/LinkedList.java" />
-      <change beforePath="$PROJECT_DIR$/tests/com/dsac/ms/datastructures/LinkedListTest.java" afterPath="$PROJECT_DIR$/tests/com/dsac/ms/datastructures/LinkedListTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/dsac/ms/datastructures/BiNode.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/dsac/ms/datastructures/BinarySearchTrees.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,17 +28,38 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="LinkedListTest.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/tests/com/dsac/ms/datastructures/LinkedListTest.java">
+          <file leaf-file-name="BinarySearchTrees.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/com/dsac/ms/datastructures/BinarySearchTrees.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="34">
-                  <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+                  <caret line="2" column="32" lean-forward="true" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Node.java" pinned="false" current-in-tab="false">
+          <file leaf-file-name="BiNode.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/com/dsac/ms/datastructures/BiNode.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="34">
+                  <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+                  <folding>
+                    <element signature="e#161#162#0" expanded="true" />
+                    <element signature="e#189#190#0" expanded="true" />
+                    <element signature="e#227#228#0" expanded="true" />
+                    <element signature="e#258#259#0" expanded="true" />
+                    <element signature="e#309#310#0" expanded="true" />
+                    <element signature="e#349#350#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="Node.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/com/dsac/ms/datastructures/Node.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="374">
@@ -58,11 +80,7 @@
               </provider>
             </entry>
           </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/com/dsac/ms/datastructures/LinkedList.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="392">
@@ -103,6 +121,8 @@
         <option value="$PROJECT_DIR$/src/com/dsac/ms/datastructures/Node.java" />
         <option value="$PROJECT_DIR$/src/com/dsac/ms/datastructures/LinkedList.java" />
         <option value="$PROJECT_DIR$/tests/com/dsac/ms/datastructures/LinkedListTest.java" />
+        <option value="$PROJECT_DIR$/src/com/dsac/ms/datastructures/BidirectionalNode.java" />
+        <option value="$PROJECT_DIR$/src/com/dsac/ms/datastructures/BiNode.java" />
       </list>
     </option>
   </component>
@@ -139,6 +159,24 @@
             <path>
               <item name="DSAC" type="b2602c69:ProjectViewProjectNode" />
               <item name="DSAC" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DSAC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DSAC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DSAC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DSAC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DSAC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DSAC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ms" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructures" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DSAC" type="b2602c69:ProjectViewProjectNode" />
@@ -361,6 +399,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dsac/ms/datastructures/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="141" column="5" lean-forward="true" selection-start-line="141" selection-start-column="5" selection-end-line="141" selection-end-column="5" />
+          <folding>
+            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/com/dsac/ms/datastructures/LinkedListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dsac/ms/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dsac/ms/datastructures/Node.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -380,32 +447,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dsac/ms/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dsac/ms/datastructures/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="141" column="5" lean-forward="true" selection-start-line="141" selection-start-column="5" selection-end-line="141" selection-end-column="5" />
-          <folding>
-            <element signature="e#437#438#0" expanded="true" />
-            <element signature="e#464#465#0" expanded="true" />
-            <element signature="e#496#497#0" expanded="true" />
-            <element signature="e#531#532#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/com/dsac/ms/datastructures/LinkedListTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/dsac/ms/datastructures/BinarySearchTrees.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+          <caret line="2" column="32" lean-forward="true" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dsac/ms/datastructures/BiNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding>
+            <element signature="e#161#162#0" expanded="true" />
+            <element signature="e#189#190#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
