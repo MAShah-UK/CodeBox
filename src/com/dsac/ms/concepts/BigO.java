@@ -1,8 +1,6 @@
 package com.dsac.ms.concepts;
 
-import java.util.List;
-
-// BigO notation is used to determine the runtime complexity of an operation.
+// BigO notation is used to determine how well an algorithm scales as data increases.
 public class BigO {
     // O(1) - constant time operation. Array length can be arbitrary, but the
     // operation will complete in the same time regardless.
@@ -61,5 +59,27 @@ public class BigO {
         int count = getCommonElementsCount(arr1, arr2); // O(mn)
         int sum = getSum(arr1); // O(m)
         return count + sum; // O(1)
+    }
+
+    // Example of O(log n) complexity. As the array doubles in size
+    // the binary search only need to slice the array in half once more.
+    public static int binarySearch(int[] arr, int val) {
+        int low = 0;
+        int high = arr.length;
+        boolean found = false;
+        while (low <= high && !found) {
+            int mid = (low+high)/2;
+            if (arr[mid] > val) {
+                high = mid-1;
+            } else if (arr[mid] < val) {
+                low = mid+1;
+            } else {
+                found = true;
+            }
+        }
+        if (!found) {
+            throw new IllegalArgumentException();
+        }
+        return low;
     }
 }
