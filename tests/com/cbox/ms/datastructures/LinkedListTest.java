@@ -8,12 +8,6 @@ public class LinkedListTest {
     private LinkedList<String> strList;
 
     @Test
-    public void noElements() {
-        intList = new LinkedList<>();
-        assertEquals("", intList.toString());
-    }
-
-    @Test
     public void addIntegerElements() {
         intList = new LinkedList<>(1, 2, 3, 4, 5);
         assertEquals("1 2 3 4 5", intList.toString());
@@ -42,15 +36,6 @@ public class LinkedListTest {
     }
 
     @Test
-    public void modifyAndClearList() {
-        intList = new LinkedList<>(1, 2, 3, 4, 5);
-        intList.append(6);
-        intList.prepend(0);
-        intList.clear();
-        assertEquals(0, intList.getSize());
-    }
-
-    @Test
     public void getIntegerListSize() {
         intList = new LinkedList<>(1, 2, 3, 4, 5);
         assertEquals(5, intList.getSize());
@@ -60,6 +45,21 @@ public class LinkedListTest {
     public void getStringListSize() {
         strList = new LinkedList<>("Hello", " world", "!");
         assertEquals(3, strList.getSize());
+    }
+
+    @Test
+    public void modifyAndClearList() {
+        intList = new LinkedList<>(1, 2, 3, 4, 5);
+        intList.append(6);
+        intList.prepend(0);
+        intList.clear();
+        assertEquals(0, intList.getSize());
+    }
+
+    @Test
+    public void noElements() {
+        intList = new LinkedList<>();
+        assertEquals("", intList.toString());
     }
 
     @Test

@@ -10,7 +10,7 @@ Disadvantage:
     Slow to get nth element O(n).
  */
 
-public class LinkedList<T extends Comparable<T>> {
+public class LinkedList<T> {
     private Node<T> root;
     private int size;
 

@@ -4,41 +4,91 @@ public class BinarySearchTree<T extends Comparable<T>> {
     private BiNode<T> root;
     private int size = 0;
 
+    public BinarySearchTree(T...values) {
+        add(values);
+    }
+
+    public int getSize() {
+        return size;
+    }
+
     public boolean isEmpty() {
         return root == null;
     }
 
-    public boolean add(T value) {
-        boolean isValid;
-        if (isEmpty()) {
-            root = new BiNode<>(value);
-            isValid = true;
-        } else {
-            isValid = add(value, root);
-        }
-        return isValid;
+    public void clear() {
+        root = null;
+        size = 0;
     }
 
-    private boolean add(T value, BiNode<T> curr) {
-        boolean added;
-        int comp = value.compareTo(curr.getValue());
-        if (comp > 0) {
-            if (curr.getRight() == null) {
-                curr.setRight(new BiNode<>(value));
-                added = true;
-            } else {
-                added = add(value, curr.getRight());
+    // Returns false if not all values could be added.
+    public boolean add(T[] values) {
+        boolean addedAll = true;
+        for (T val : values) {
+            boolean output = add(val);
+            if (!output) {
+                addedAll = false;
             }
-        } else if (comp < 0) {
-            if (curr.getLeft() == null) {
-                curr.setLeft(new BiNode<>(value));
-                added = true;
-            } else {
-                added = add(value, curr.getLeft());
-            }
+        }
+        return addedAll;
+    }
+
+    // Returns false if element already exists.
+    public boolean add(T value) {
+        BiNode<T> newNode = new BiNode<>(value);
+        boolean added = false;
+        if (isEmpty()) {
+            root = newNode;
+            added = true;
         } else {
-            added = false;
+            BiNode<T> p = findParent(value, root);
+            BiNode<T> l = p.getLeft();
+            BiNode<T> r = p.getRight();
+            int comp = value.compareTo(p.getValue());
+            if (comp < 0 && p.getLeft() == null) {
+                p.setLeft(newNode);
+                added = true;
+            } else if (comp > 0 && p.getRight() == null) {
+                p.setRight(newNode);
+                added = true;
+            }
+        }
+        if (added) {
+            size++;
         }
         return added;
+    }
+
+    private BiNode<T> findParent(T value, BiNode<T> curr) {
+        int comp = value.compareTo(curr.getValue());
+        if (comp > 0) {
+            if (curr.getRight() == null || curr.getRight().getValue().equals(value)) {
+                return curr;
+            } else {
+                return findParent(value, curr.getRight());
+            }
+        } else if (comp < 0) {
+            if (curr.getLeft() == null || curr.getLeft().getValue().equals(value)) {
+                return curr;
+            } else {
+                return findParent(value, curr.getLeft());
+            }
+        } else {
+            return curr;
+        }
+    }
+
+    public boolean contains(T value) {
+        if (isEmpty()) {
+            return false;
+        }
+        BiNode<T> p = findParent(value, root);
+        BiNode<T> l = p.getLeft();
+        BiNode<T> r = p.getRight();
+        if ((l != null && l.getValue().equals(value)) ||
+            (r != null && r.getValue().equals(value)) ) {
+            return true;
+        }
+        return false;
     }
 }
