@@ -1,4 +1,4 @@
-package com.dsac.ms.datastructures;
+package com.cbox.ms.datastructures;
 
 public class Node<T> {
     private T value;

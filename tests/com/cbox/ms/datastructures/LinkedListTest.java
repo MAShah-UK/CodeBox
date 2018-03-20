@@ -1,4 +1,4 @@
-package com.dsac.ms.datastructures;
+package com.cbox.ms.datastructures;
 
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;

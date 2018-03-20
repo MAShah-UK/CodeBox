@@ -1,4 +1,4 @@
-package com.dsac.ms.concepts;
+package com.cbox.ms.concepts;
 
 // BigO notation is used to determine how well an algorithm scales as data increases.
 public class BigO {
