@@ -85,10 +85,38 @@ public class BinarySearchTree<T extends Comparable<T>> {
         BiNode<T> p = findParent(value, root);
         BiNode<T> l = p.getLeft();
         BiNode<T> r = p.getRight();
-        if ((l != null && l.getValue().equals(value)) ||
-            (r != null && r.getValue().equals(value)) ) {
+        if ( (l != null && l.getValue().equals(value)) ||
+             (r != null && r.getValue().equals(value)) ) {
             return true;
         }
         return false;
+    }
+
+    // TODO: Doesn't seem like the cleanest way to keep track of the index.
+    private int toArrayIdx;
+    // Returns elements 'in-order'.
+    private void toArray(BiNode<T> curr, T[] array) {
+        if (curr.getLeft() != null) {
+            toArray(curr.getLeft(), array);
+        }
+        array[toArrayIdx] = curr.getValue();
+        toArrayIdx++;
+        if (curr.getRight() != null) {
+            toArray(curr.getRight(), array);
+        }
+    }
+
+    // TODO: Will be better to return an array rather than expecting
+    // user to provide it, but I don't know how to initialise a generic
+    // array directly without compilation errors.
+    public void toArray(T[] array) {
+        if (isEmpty()) {
+            return;
+        }
+        if (array.length < size) {
+            throw new IndexOutOfBoundsException();
+        }
+        toArrayIdx = 0;
+        toArray(root, array);
     }
 }
