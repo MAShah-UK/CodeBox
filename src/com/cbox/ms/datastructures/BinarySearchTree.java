@@ -92,7 +92,10 @@ public class BinarySearchTree<T extends Comparable<T>> {
         return false;
     }
 
-    // TODO: Doesn't seem like the cleanest way to keep track of the index.
+    // TODO: Doesn't seem like the cleanest way to keep track of the index,
+    // but I don't want to use an ArrayList since that means that my data
+    // structure is relying on another data structure. I rather minimise
+    // dependencies and stick to built in solutions - i.e. arrays.
     private int toArrayIdx;
     // Returns elements 'in-order'.
     private void toArray(BiNode<T> curr, T[] array) {
