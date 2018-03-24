@@ -3,20 +3,59 @@ package com.cbox.ms.concepts;
 import java.util.ArrayList;
 import java.util.List;
 
-// Abstraction:
+// Abstraction: Provides the interface to the user while hiding the implementation.
+// The user knows what the class does instead of how it does it.
+// This is achieved through abstract classes and interfaces.
+// Abstract classes:
+// - Can contain abstract methods and/or implemented methods.
+// - Behaves like a normal class (constructors, public method implementation, inheritance, etc).
+// - Classes can only subclass one class.
+// Interfaces:
+// - Fields are public static final by default.
+// - Methods are public by default.
+// - static, default, private methods must be implemented.
+// - Classes can subclass many interfaces.
+// Both:
+// - Can't be instantiated without being subclassed.
+// - Methods must be implemented in the first non-abstract subclass.
+
 interface Transaction { // Can't be initialised directly. Must be subclassed.
-    void deposit(double amount); // public by default.
+    void deposit(double amount); // Interface methods are public by default.
     void withdraw(double amount);
 }
 
-// Inheritance:
+// Inheritance: Allows once class to build on another class/interface.
+// This is achieved through extends and implements keywords.
+// - Represents 'is-a' relationship.
+// - The simpler class is called a superclass, the new class is called a subclass.
+// - All classes subclass Object.
+// - 'this' is used to call current class methods.
+// - 'super' is used to call superclass methods.
 abstract class BankAccount implements Transaction { // Can't be initialised directly. Must be subclassed.
-    // Encapsulation:
-    private final int id; // Must be assigned during declaration or in constructor.
-    private static int idCount = 1; // Static field / class variable. Instantiated once per class.
+
+    // Encapsulation: Protects inner workings of class by data hiding.
+    // This is achieved through access modifiers (public, private, default, private) ,
+    // getters, and setters.
+    // - Can rename fields without affecting dependant classes.
+    // - Can introduce logic before getting/setting a field (validation, logging, etc).
+    // - Can limit access to field/method/class/etc to just that class / package / subclasses.
+
+    private final int id;
+    private static int idCount = 1;
     private final String name;
     private double balance;
     private List<Double> transactions = new ArrayList<>();
+
+    // Final keyword: Prevents further modification.
+    // - Final fields must be initialised during declaration, OR in the constructor.
+    // - Final methods can't be overridden.
+    // - Final classes can't be subclassed.
+
+    // Static keyword: Allows accessing fields/methods through class rather than instance.
+    // - Static fields are instantiated once per class. Changing it in one class changes
+    // it for the others too.
+    // - Static methods can only use static fields or other static methods within the
+    // same class. Local variables and their methods can be non-static.
 
     @Override // Override annotation marks overridden method.
     public void deposit(double amount) {
@@ -45,9 +84,7 @@ abstract class BankAccount implements Transaction { // Can't be initialised dire
         id = idCount;
         idCount++;
     }
-
-    // Getters:
-
+    
     public int getId() {
         return id;
     }
@@ -128,5 +165,21 @@ class SavingsAccount extends BankAccount {
 }
 
 public class JavaFundamentals {
-    // Only required to name the file JavaFundamentals.
+    public JavaFundamentals() {
+        CurrentAccount JohnDoe = new CurrentAccount("John Doe", 1000);
+        JohnDoe.deposit(5000);
+
+        SavingsAccount JaneDoe = new SavingsAccount("Jane Doe");
+        JaneDoe.deposit(10000);
+        JaneDoe.withdraw(2000);
+
+        // Polymorphism:
+        List<BankAccount> accounts = new ArrayList<>();
+        accounts.add(JohnDoe);
+        accounts.add(JaneDoe);
+
+        for (BankAccount account : accounts) {
+            account.deposit(50);
+        }
+    }
 }
