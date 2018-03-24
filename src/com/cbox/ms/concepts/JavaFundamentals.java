@@ -31,6 +31,7 @@ interface Transaction { // Can't be initialised directly. Must be subclassed.
 // - All classes subclass Object.
 // - 'this' is used to call current class methods.
 // - 'super' is used to call superclass methods.
+
 abstract class BankAccount implements Transaction { // Can't be initialised directly. Must be subclassed.
 
     // Encapsulation: Protects inner workings of class by data hiding.
@@ -84,7 +85,7 @@ abstract class BankAccount implements Transaction { // Can't be initialised dire
         id = idCount;
         idCount++;
     }
-    
+
     public int getId() {
         return id;
     }
@@ -173,7 +174,13 @@ public class JavaFundamentals {
         JaneDoe.deposit(10000);
         JaneDoe.withdraw(2000);
 
-        // Polymorphism:
+        // Polymorphism: Allows an object to take on many forms.
+        // This is achieved by pointing a superclass reference to a subclass object.
+        // - Use overridden methods to take advantage of polymorphism.
+        // - Can write generic code to deal with all types of accounts.
+        // - Maximised code-reuse, minimises code-duplication.
+
+        // BankAccount references point to CurrentAccount or SavingsAccount objects.
         List<BankAccount> accounts = new ArrayList<>();
         accounts.add(JohnDoe);
         accounts.add(JaneDoe);
