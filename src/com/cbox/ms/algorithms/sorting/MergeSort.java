@@ -14,6 +14,10 @@ Properties:
 
 public class MergeSort {
     public static void exec(int[] array) {
+        split(array);
+    }
+
+    public static void split(int[] array) {
         if (array == null || array.length < 2) {
             return;
         }
@@ -29,8 +33,8 @@ public class MergeSort {
             right[i-mid] = array[i];
         }
 
-        exec(left);
-        exec(right);
+        split(left);
+        split(right);
         merge(left, right, array);
     }
 
