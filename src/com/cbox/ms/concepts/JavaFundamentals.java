@@ -41,8 +41,8 @@ abstract class BankAccount implements Transaction { // Can't be initialised dire
     // - Can introduce logic before getting/setting a field (validation, logging, etc).
     // - Can limit access to field/method/class/etc to just that class / package / subclasses.
 
-    private final int id;
     private static int idCount = 1;
+    private final int id;
     private final String name;
     private double balance;
     private List<Double> transactions = new ArrayList<>();
@@ -80,7 +80,8 @@ abstract class BankAccount implements Transaction { // Can't be initialised dire
         }
     }
 
-    public BankAccount(String name) { // Automatically called when class is instantiated.
+    // Constructors are automatically called when class is instantiated.
+    public BankAccount(String name) {
         this.name = name;
         id = idCount;
         idCount++;
@@ -99,7 +100,7 @@ abstract class BankAccount implements Transaction { // Can't be initialised dire
     }
 }
 
-// Classes can only extend one class, but can implement as many as needed.
+// Classes can only extend one class, but can implement as many interfaces as needed.
 class CurrentAccount extends BankAccount {
 
     private double overdraftLimit;
@@ -177,14 +178,15 @@ public class JavaFundamentals {
         // Polymorphism: Allows an object to take on many forms.
         // This is achieved by pointing a superclass reference to a subclass object.
         // - Use overridden methods to take advantage of polymorphism.
-        // - Can write generic code to deal with all types of accounts.
+        // - Can write generic code to deal with all types of subclasses.
         // - Maximised code-reuse, minimises code-duplication.
 
-        // BankAccount references point to CurrentAccount or SavingsAccount objects.
+        // BankAccount references can point to CurrentAccount or SavingsAccount objects.
         List<BankAccount> accounts = new ArrayList<>();
         accounts.add(JohnDoe);
         accounts.add(JaneDoe);
 
+        // Generic code to deal with BankAccount subclasses.
         for (BankAccount account : accounts) {
             account.deposit(50);
         }
