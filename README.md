@@ -15,6 +15,6 @@
   * Quick sort
 * **Data Structures**
   * Binary search tree
-  * LinkedList
+  * Linked list
 * **Exercises**
   * (TODO)
