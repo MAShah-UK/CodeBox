@@ -6,15 +6,15 @@
   * Java 8/9
   * JUnit 4.12 (unit testing)
 ## Covered Material
-### Concepts
+* **Concepts**
 * BigO notation
 * Java fundamentals
-### Sorting
+* **Sorting**
 * Bubble sort
 * Merge sort
 * Quick sort
-### Data Structures
+* **Data Structures**
 * Binary search tree
 * LinkedList
-### Exercises
+* **Exercises**
 * (TODO)
