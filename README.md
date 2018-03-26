@@ -7,14 +7,14 @@
   * JUnit 4.12 (unit testing)
 ## Covered Material
 * **Concepts**
-* BigO notation
-* Java fundamentals
+  * BigO notation
+  * Java fundamentals
 * **Sorting**
-* Bubble sort
-* Merge sort
-* Quick sort
+  * Bubble sort
+  * Merge sort
+  * Quick sort
 * **Data Structures**
-* Binary search tree
-* LinkedList
+  * Binary search tree
+  * LinkedList
 * **Exercises**
-* (TODO)
+  * (TODO)
