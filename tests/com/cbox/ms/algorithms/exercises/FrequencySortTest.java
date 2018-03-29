@@ -1,6 +1,6 @@
 package com.cbox.ms.algorithms.exercises;
 
-import com.test.exercises.FrequencySort;
+import com.cbox.ms.algorithms.sorting.FrequencySort;
 import org.junit.Assert;
 import org.junit.Test;
 

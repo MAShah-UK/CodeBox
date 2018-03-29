@@ -2,26 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb999888-d496-4404-935e-f8c32f61e668" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/cbox/ms/algorithms/exercises/AddLargeNumbers.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/cbox/ms/algorithms/exercises/AnagramStrings.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/cbox/ms/algorithms/exercises/BalancedBrackets.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/cbox/ms/algorithms/exercises/FindPairsForN.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/cbox/ms/algorithms/exercises/MaxShareProfit.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/cbox/ms/algorithms/exercises/PalindromeString.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/cbox/ms/algorithms/exercises/PascalsTriangle.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/cbox/ms/algorithms/exercises/ReverseString.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/cbox/ms/algorithms/sorting/FrequencySort.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tests/com/cbox/ms/algorithms/exercises/AddLargeNumbersTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tests/com/cbox/ms/algorithms/exercises/AnagramStringsTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tests/com/cbox/ms/algorithms/exercises/BalancedBracketsTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tests/com/cbox/ms/algorithms/exercises/FindPairsForNTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tests/com/cbox/ms/algorithms/exercises/FrequencySortTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tests/com/cbox/ms/algorithms/exercises/MaxShareProfitTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tests/com/cbox/ms/algorithms/exercises/PalindromeStringTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tests/com/cbox/ms/algorithms/exercises/PascalsTriangleTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tests/com/cbox/ms/algorithms/exercises/ReverseStringTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tests/com/cbox/ms/algorithms/sorting/FrequencySortTest.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/com/cbox/ms/algorithms/exercises/ReverseString.java" afterPath="$PROJECT_DIR$/src/com/cbox/ms/algorithms/exercises/ReverseString.java" />
+      <change beforePath="$PROJECT_DIR$/tests/com/cbox/ms/algorithms/exercises/FrequencySortTest.java" afterPath="$PROJECT_DIR$/tests/com/cbox/ms/algorithms/exercises/FrequencySortTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,7 +15,31 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ReverseStringTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/com/cbox/ms/algorithms/exercises/ReverseStringTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReverseString.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/cbox/ms/algorithms/exercises/ReverseString.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="35" lean-forward="true" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+              <folding>
+                <element signature="e#783#784#0" expanded="true" />
+                <element signature="e#849#850#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -91,6 +98,8 @@
         <option value="$PROJECT_DIR$/src/com/cbox/ms/algorithms/sorting/FrequencySort.java" />
         <option value="$PROJECT_DIR$/tests/com/cbox/ms/algorithms/exercises/MaxShareProfitTest.java" />
         <option value="$PROJECT_DIR$/tests/com/cbox/ms/algorithms/sorting/FrequencySortTest.java" />
+        <option value="$PROJECT_DIR$/tests/com/cbox/ms/algorithms/exercises/FrequencySortTest.java" />
+        <option value="$PROJECT_DIR$/src/com/cbox/ms/algorithms/exercises/ReverseString.java" />
       </list>
     </option>
   </component>
@@ -149,7 +158,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ms" type="462c0819:PsiDirectoryNode" />
               <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="sorting" type="462c0819:PsiDirectoryNode" />
+              <item name="exercises" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CodeBox" type="b2602c69:ProjectViewProjectNode" />
@@ -238,7 +247,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.QuickSortTest">
+  <component name="RunManager" selected="JUnit.ReverseStringTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -257,31 +266,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="CodeBox" />
       <envs />
-    </configuration>
-    <configuration name="BinarySearchTreeTest.getSortedStringArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.cbox.ms.datastructures.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="CodeBox" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.cbox.ms.datastructures" />
-      <option name="MAIN_CLASS_NAME" value="com.cbox.ms.datastructures.BinarySearchTreeTest" />
-      <option name="METHOD_NAME" value="getSortedStringArray" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
     </configuration>
     <configuration name="MergeSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -358,6 +342,31 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration name="ReverseStringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.cbox.ms.algorithms.exercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="CodeBox" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.cbox.ms.algorithms.exercises" />
+      <option name="MAIN_CLASS_NAME" value="com.cbox.ms.algorithms.exercises.ReverseStringTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -386,19 +395,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.BinarySearchTreeTest.getSortedStringArray" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.MergeSortTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.MergeSortTest.nullArray" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.QuickSortTest" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.MergeSortTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.MergeSortTest.nullArray" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.QuickSortTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ReverseStringTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.QuickSortTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.MergeSortTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.MergeSortTest.nullArray" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.BinarySearchTreeTest.getSortedStringArray" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ReverseStringTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.QuickSortTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.MergeSortTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.MergeSortTest.nullArray" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -419,15 +428,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BinarySearchTreeTest_getSortedStringArray - 2018.03.21 at 00h 43m 16s.xml">
-      <configuration name="BinarySearchTreeTest.getSortedStringArray" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinarySearchTreeTest_getSortedStringArray - 2018.03.21 at 00h 43m 32s.xml">
-      <configuration name="BinarySearchTreeTest.getSortedStringArray" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MergeSortTest - 2018.03.25 at 17h 15m 38s.xml">
-      <configuration name="MergeSortTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MergeSortTest - 2018.03.25 at 17h 19m 20s.xml">
       <configuration name="MergeSortTest" configurationId="JUnit" />
     </history-entry>
@@ -449,23 +449,34 @@
     <history-entry file="QuickSortTest - 2018.03.25 at 19h 56m 42s.xml">
       <configuration name="QuickSortTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ReverseStringTest - 2018.03.29 at 19h 56m 11s.xml">
+      <configuration name="ReverseStringTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReverseStringTest - 2018.03.29 at 20h 19m 53s.xml">
+      <configuration name="ReverseStringTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReverseStringTest - 2018.03.29 at 20h 20m 10s.xml">
+      <configuration name="ReverseStringTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1974" y="-8" width="1874" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13455328" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1517761" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -476,7 +487,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -499,22 +509,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tests/com/cbox/ms/datastructures/LinkedListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="62" column="5" lean-forward="false" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cbox/ms/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cbox/ms/datastructures/BinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -542,16 +536,16 @@
         <state relative-caret-position="238">
           <caret line="22" column="28" lean-forward="false" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
           <folding>
-            <element signature="e#134#135#0" expanded="true" />
-            <element signature="e#168#169#0" expanded="true" />
-            <element signature="e#195#196#0" expanded="true" />
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
-            <element signature="e#284#285#0" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
-            <element signature="e#431#432#0" expanded="true" />
+            <element signature="e#134#135#0" expanded="false" />
+            <element signature="e#168#169#0" expanded="false" />
+            <element signature="e#195#196#0" expanded="false" />
+            <element signature="e#223#224#0" expanded="false" />
+            <element signature="e#256#257#0" expanded="false" />
+            <element signature="e#284#285#0" expanded="false" />
+            <element signature="e#321#322#0" expanded="false" />
+            <element signature="e#355#356#0" expanded="false" />
+            <element signature="e#400#401#0" expanded="false" />
+            <element signature="e#431#432#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -614,16 +608,16 @@
         <state relative-caret-position="0">
           <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
           <folding>
-            <element signature="e#134#135#0" expanded="true" />
-            <element signature="e#168#169#0" expanded="true" />
-            <element signature="e#195#196#0" expanded="true" />
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
-            <element signature="e#284#285#0" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
-            <element signature="e#431#432#0" expanded="true" />
+            <element signature="e#134#135#0" expanded="false" />
+            <element signature="e#168#169#0" expanded="false" />
+            <element signature="e#195#196#0" expanded="false" />
+            <element signature="e#223#224#0" expanded="false" />
+            <element signature="e#256#257#0" expanded="false" />
+            <element signature="e#284#285#0" expanded="false" />
+            <element signature="e#321#322#0" expanded="false" />
+            <element signature="e#355#356#0" expanded="false" />
+            <element signature="e#400#401#0" expanded="false" />
+            <element signature="e#431#432#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -807,14 +801,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cbox/ms/algorithms/exercises/ReverseString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cbox/ms/algorithms/exercises/MaxShareProfit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -871,14 +857,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/com/cbox/ms/algorithms/exercises/FrequencySortTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/com/cbox/ms/algorithms/exercises/FindPairsForNTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -896,14 +874,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/com/cbox/ms/algorithms/exercises/PascalsTriangleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/com/cbox/ms/algorithms/exercises/ReverseStringTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -948,6 +918,51 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/com/cbox/ms/algorithms/exercises/FrequencySortTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/java.base/java/lang/StringLatin1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="41" column="23" lean-forward="false" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/java.base/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="703" column="33" lean-forward="true" selection-start-line="703" selection-start-column="33" selection-end-line="703" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/com/cbox/ms/algorithms/exercises/ReverseStringTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cbox/ms/algorithms/exercises/ReverseString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="35" lean-forward="true" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+          <folding>
+            <element signature="e#783#784#0" expanded="true" />
+            <element signature="e#849#850#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
