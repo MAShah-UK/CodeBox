@@ -16,6 +16,8 @@ Steps:
  */
 
 public class PascalsTriangle {
+
+    // Using built-in arrays and taking advantage of symmetry.
     public static String exec(int n) {
         if (n < 1) {
             return null;
@@ -25,20 +27,23 @@ public class PascalsTriangle {
             return Arrays.toString(ret);
         }
 
-        int[] prev = new int[]{1, 1};
-        int[] curr;
-        do {
-            curr = new int[prev.length+1];
-            curr[0] = curr[curr.length-1] = 1;
-            for (int i = 1; i < curr.length - 1; i++) {
+        int[] prev = new int[n], curr = new int[n];
+        prev[0] = prev[1] = curr[0] = curr[n-1] = 1;
+        int currN = 3;
+        while (currN <= n) {
+            for (int i = 1; i < (currN+1)/2; i++) {
                 curr[i] = prev[i-1] + prev[i];
+                curr[currN-1-i] = curr[i];
             }
-            prev = curr;
-        } while (curr.length != n);
+            curr[currN-1] = 1;
+            prev = Arrays.copyOf(curr, curr.length);
+            currN++;
+        }
 
         return Arrays.toString(curr);
     }
 
+    // Using list.
     public static String exec2(int n) {
         if (n < 1) {
             return null;
