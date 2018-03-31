@@ -1,6 +1,7 @@
 package cbox.exercises;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /* Determines the nth line of Pascal's triangle.
@@ -16,6 +17,29 @@ Steps:
 
 public class PascalsTriangle {
     public static String exec(int n) {
+        if (n < 1) {
+            return null;
+        } else if (n < 3) {
+            int[] ret = new int[n];
+            Arrays.fill(ret, 1);
+            return Arrays.toString(ret);
+        }
+
+        int[] prev = new int[]{1, 1};
+        int[] curr;
+        do {
+            curr = new int[prev.length+1];
+            curr[0] = curr[curr.length-1] = 1;
+            for (int i = 1; i < curr.length - 1; i++) {
+                curr[i] = prev[i-1] + prev[i];
+            }
+            prev = curr;
+        } while (curr.length != n);
+
+        return Arrays.toString(curr);
+    }
+
+    public static String exec2(int n) {
         if (n < 1) {
             return null;
         }

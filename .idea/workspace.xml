@@ -2,42 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb999888-d496-4404-935e-f8c32f61e668" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/cbox/datastructures/ArrayList.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tests/cbox/datastructures/ArrayListTest.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/com/cbox/ms/Main.java" afterPath="$PROJECT_DIR$/src/cbox/Main.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/cbox/ms/algorithms/exercises/AddLargeNumbers.java" afterPath="$PROJECT_DIR$/src/cbox/exercises/AddLargeNumbers.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/cbox/ms/algorithms/exercises/AnagramStrings.java" afterPath="$PROJECT_DIR$/src/cbox/exercises/AnagramStrings.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/cbox/ms/algorithms/exercises/BalancedBrackets.java" afterPath="$PROJECT_DIR$/src/cbox/exercises/BalancedBrackets.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/cbox/ms/algorithms/exercises/FindPairsForN.java" afterPath="$PROJECT_DIR$/src/cbox/exercises/FindPairsForN.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/cbox/ms/algorithms/exercises/MaxShareProfit.java" afterPath="$PROJECT_DIR$/src/cbox/exercises/MaxShareProfit.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/cbox/ms/algorithms/exercises/PalindromeString.java" afterPath="$PROJECT_DIR$/src/cbox/exercises/PalindromeString.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/cbox/ms/algorithms/exercises/PascalsTriangle.java" afterPath="$PROJECT_DIR$/src/cbox/exercises/PascalsTriangle.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/cbox/ms/algorithms/exercises/ReverseString.java" afterPath="$PROJECT_DIR$/src/cbox/exercises/ReverseString.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/cbox/ms/algorithms/sorting/BubbleSort.java" afterPath="$PROJECT_DIR$/src/cbox/algorithms/BubbleSort.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/cbox/ms/algorithms/sorting/FrequencySort.java" afterPath="$PROJECT_DIR$/src/cbox/algorithms/FrequencySort.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/cbox/ms/algorithms/sorting/MergeSort.java" afterPath="$PROJECT_DIR$/src/cbox/algorithms/MergeSort.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/cbox/ms/algorithms/sorting/QuickSort.java" afterPath="$PROJECT_DIR$/src/cbox/algorithms/QuickSort.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/cbox/ms/concepts/BigO.java" afterPath="$PROJECT_DIR$/src/cbox/concepts/BigO.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/cbox/ms/concepts/JavaFundamentals.java" afterPath="$PROJECT_DIR$/src/cbox/concepts/JavaFundamentals.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/cbox/ms/datastructures/BiNode.java" afterPath="$PROJECT_DIR$/src/cbox/datastructures/BiNode.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/cbox/ms/datastructures/BinarySearchTree.java" afterPath="$PROJECT_DIR$/src/cbox/datastructures/BinarySearchTree.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/cbox/ms/datastructures/LinkedList.java" afterPath="$PROJECT_DIR$/src/cbox/datastructures/LinkedList.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/cbox/ms/datastructures/Node.java" afterPath="$PROJECT_DIR$/src/cbox/datastructures/Node.java" />
-      <change beforePath="$PROJECT_DIR$/tests/com/cbox/ms/algorithms/exercises/AddLargeNumbersTest.java" afterPath="$PROJECT_DIR$/tests/cbox/exercises/AddLargeNumbersTest.java" />
-      <change beforePath="$PROJECT_DIR$/tests/com/cbox/ms/algorithms/exercises/AnagramStringsTest.java" afterPath="$PROJECT_DIR$/tests/cbox/exercises/AnagramStringsTest.java" />
-      <change beforePath="$PROJECT_DIR$/tests/com/cbox/ms/algorithms/exercises/BalancedBracketsTest.java" afterPath="$PROJECT_DIR$/tests/cbox/exercises/BalancedBracketsTest.java" />
-      <change beforePath="$PROJECT_DIR$/tests/com/cbox/ms/algorithms/exercises/FindPairsForNTest.java" afterPath="$PROJECT_DIR$/tests/cbox/exercises/FindPairsForNTest.java" />
-      <change beforePath="$PROJECT_DIR$/tests/com/cbox/ms/algorithms/exercises/FrequencySortTest.java" afterPath="$PROJECT_DIR$/tests/cbox/exercises/FrequencySortTest.java" />
-      <change beforePath="$PROJECT_DIR$/tests/com/cbox/ms/algorithms/exercises/MaxShareProfitTest.java" afterPath="$PROJECT_DIR$/tests/cbox/exercises/MaxShareProfitTest.java" />
-      <change beforePath="$PROJECT_DIR$/tests/com/cbox/ms/algorithms/exercises/PalindromeStringTest.java" afterPath="$PROJECT_DIR$/tests/cbox/exercises/PalindromeStringTest.java" />
-      <change beforePath="$PROJECT_DIR$/tests/com/cbox/ms/algorithms/exercises/PascalsTriangleTest.java" afterPath="$PROJECT_DIR$/tests/cbox/exercises/PascalsTriangleTest.java" />
-      <change beforePath="$PROJECT_DIR$/tests/com/cbox/ms/algorithms/exercises/ReverseStringTest.java" afterPath="$PROJECT_DIR$/tests/cbox/exercises/ReverseStringTest.java" />
-      <change beforePath="$PROJECT_DIR$/tests/com/cbox/ms/algorithms/sorting/FrequencySortTest.java" afterPath="$PROJECT_DIR$/tests/cbox/algorithms/FrequencySortTest.java" />
-      <change beforePath="$PROJECT_DIR$/tests/com/cbox/ms/algorithms/sorting/MergeSortTest.java" afterPath="$PROJECT_DIR$/tests/cbox/algorithms/MergeSortTest.java" />
-      <change beforePath="$PROJECT_DIR$/tests/com/cbox/ms/algorithms/sorting/QuickSortTest.java" afterPath="$PROJECT_DIR$/tests/cbox/algorithms/QuickSortTest.java" />
-      <change beforePath="$PROJECT_DIR$/tests/com/cbox/ms/datastructures/BinarySearchTreeTest.java" afterPath="$PROJECT_DIR$/tests/cbox/datastructures/BinarySearchTreeTest.java" />
-      <change beforePath="$PROJECT_DIR$/tests/com/cbox/ms/datastructures/LinkedListTest.java" afterPath="$PROJECT_DIR$/tests/cbox/datastructures/LinkedListTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/cbox/exercises/PascalsTriangle.java" afterPath="$PROJECT_DIR$/src/cbox/exercises/PascalsTriangle.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,33 +24,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArrayList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cbox/datastructures/ArrayList.java">
+      <file leaf-file-name="PascalsTriangle.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cbox/exercises/PascalsTriangle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="87" column="29" lean-forward="false" selection-start-line="87" selection-start-column="29" selection-end-line="87" selection-end-column="29" />
-              <folding>
-                <element signature="e#1295#1296#0" expanded="true" />
-                <element signature="e#1324#1325#0" expanded="true" />
-                <element signature="e#1349#1350#0" expanded="true" />
-                <element signature="e#1384#1385#0" expanded="true" />
-                <element signature="e#1919#1920#0" expanded="true" />
-                <element signature="e#1951#1952#0" expanded="true" />
-                <element signature="e#2664#2665#0" expanded="true" />
-                <element signature="e#2697#2698#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="135">
+              <caret line="24" column="38" lean-forward="false" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArrayListTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/cbox/datastructures/ArrayListTest.java">
+      <file leaf-file-name="PascalsTriangleTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/cbox/exercises/PascalsTriangleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1190">
-              <caret line="70" column="30" lean-forward="false" selection-start-line="70" selection-start-column="30" selection-end-line="70" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -156,6 +110,7 @@
         <option value="$PROJECT_DIR$/tests/com/cbox/ms/datastructures/ArrayListTest.java" />
         <option value="$PROJECT_DIR$/src/cbox/datastructures/ArrayList.java" />
         <option value="$PROJECT_DIR$/tests/cbox/datastructures/ArrayListTest.java" />
+        <option value="$PROJECT_DIR$/src/cbox/exercises/PascalsTriangle.java" />
       </list>
     </option>
   </component>
@@ -221,6 +176,13 @@
             </path>
             <path>
               <item name="CodeBox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodeBox" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="cbox" type="462c0819:PsiDirectoryNode" />
+              <item name="exercises" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CodeBox" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -267,7 +229,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ArrayListTest.removeMultipleElements">
+  <component name="RunManager" selected="JUnit.PascalsTriangleTest">
     <configuration name="ArrayListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -306,31 +268,6 @@
       <option name="PACKAGE_NAME" value="cbox.datastructures" />
       <option name="MAIN_CLASS_NAME" value="cbox.datastructures.ArrayListTest" />
       <option name="METHOD_NAME" value="getElement" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="ArrayListTest.getSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="cbox.datastructures.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="CodeBox" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="cbox.datastructures" />
-      <option name="MAIN_CLASS_NAME" value="cbox.datastructures.ArrayListTest" />
-      <option name="METHOD_NAME" value="getSize" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -393,6 +330,31 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration name="PascalsTriangleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cbox.exercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="CodeBox" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="cbox.exercises" />
+      <option name="MAIN_CLASS_NAME" value="cbox.exercises.PascalsTriangleTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -422,18 +384,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.ArrayListTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ArrayListTest.getSize" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ArrayListTest.getElement" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ArrayListTest.removeOneElement" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ArrayListTest.removeMultipleElements" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ArrayListTest.getElement" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ArrayListTest.removeOneElement" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ArrayListTest.removeMultipleElements" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.PascalsTriangleTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ArrayListTest.removeMultipleElements" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ArrayListTest.removeOneElement" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ArrayListTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ArrayListTest.getElement" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ArrayListTest.getSize" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.PascalsTriangleTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ArrayListTest.removeMultipleElements" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ArrayListTest.removeOneElement" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ArrayListTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ArrayListTest.getElement" />
       </list>
     </recent_temporary>
   </component>
@@ -454,12 +416,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ArrayListTest - 2018.03.30 at 21h 56m 39s.xml">
-      <configuration name="ArrayListTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ArrayListTest - 2018.03.31 at 01h 24m 38s.xml">
-      <configuration name="ArrayListTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ArrayListTest - 2018.03.31 at 01h 53m 25s.xml">
       <configuration name="ArrayListTest" configurationId="JUnit" />
     </history-entry>
@@ -483,6 +439,12 @@
     </history-entry>
     <history-entry file="ArrayListTest_removeOneElement - 2018.03.31 at 22h 19m 44s.xml">
       <configuration name="ArrayListTest.removeOneElement" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PascalsTriangleTest - 2018.03.31 at 22h 31m 12s.xml">
+      <configuration name="PascalsTriangleTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PascalsTriangleTest - 2018.03.31 at 22h 34m 09s.xml">
+      <configuration name="PascalsTriangleTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -797,14 +759,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cbox/exercises/PascalsTriangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cbox/exercises/MaxShareProfit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -862,14 +816,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/cbox/exercises/BalancedBracketsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/cbox/exercises/PascalsTriangleTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -994,6 +940,22 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/cbox/exercises/PascalsTriangleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cbox/exercises/PascalsTriangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="24" column="38" lean-forward="false" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
