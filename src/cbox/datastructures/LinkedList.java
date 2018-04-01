@@ -1,13 +1,13 @@
 package cbox.datastructures;
 
 /*
-Purpose:
-
+Purpose: Data is contained within nodes which point to the next node in the list.
+A linked list only iterates in one direction since each node points to the next node.
+A doubly linked list can iterate in both directions each node points to the next and previous nodes.
 Advantage:
     - Inserting elements can be quick - prepend O(1), append O(n).
-    -
 Disadvantage:
-    Slow to get nth element O(n).
+    - Slow to get nth element O(n).
  */
 
 public class LinkedList<T> {
