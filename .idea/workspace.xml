@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb999888-d496-4404-935e-f8c32f61e668" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/tests/cbox/datastructures/MinStackTest.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/cbox/datastructures/MinStack.java" afterPath="$PROJECT_DIR$/src/cbox/datastructures/MinStack.java" />
-      <change beforePath="$PROJECT_DIR$/tests/cbox/datastructures/StackTest.java" afterPath="$PROJECT_DIR$/tests/cbox/datastructures/StackTest.java" />
+      <change beforePath="$PROJECT_DIR$/tests/cbox/datastructures/MinStackTest.java" afterPath="$PROJECT_DIR$/tests/cbox/datastructures/MinStackTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -101,8 +98,8 @@
           <file leaf-file-name="MinStackTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/tests/cbox/datastructures/MinStackTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="306">
-                  <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+                <state relative-caret-position="-510">
+                  <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -204,8 +201,8 @@
         <option value="$PROJECT_DIR$/src/cbox/datastructures/Queue.java" />
         <option value="$PROJECT_DIR$/tests/cbox/datastructures/QueueTest.java" />
         <option value="$PROJECT_DIR$/tests/cbox/datastructures/StackTest.java" />
-        <option value="$PROJECT_DIR$/tests/cbox/datastructures/MinStackTest.java" />
         <option value="$PROJECT_DIR$/src/cbox/datastructures/MinStack.java" />
+        <option value="$PROJECT_DIR$/tests/cbox/datastructures/MinStackTest.java" />
       </list>
     </option>
   </component>
@@ -527,6 +524,9 @@
     <history-entry file="MinStackTest - 2018.04.03 at 00h 12m 21s.xml">
       <configuration name="MinStackTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MinStackTest - 2018.04.03 at 00h 24m 07s.xml">
+      <configuration name="MinStackTest" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="QueueTest - 2018.04.02 at 23h 09m 44s.xml">
       <configuration name="QueueTest" configurationId="JUnit" />
     </history-entry>
@@ -538,9 +538,6 @@
     </history-entry>
     <history-entry file="QueueTest - 2018.04.02 at 23h 17m 30s.xml">
       <configuration name="QueueTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QueueTest_pushPopOneElement - 2018.04.02 at 22h 58m 20s.xml">
-      <configuration name="QueueTest.pushPopOneElement" configurationId="JUnit" />
     </history-entry>
     <history-entry file="QueueTest_pushPopTwoElements - 2018.04.02 at 23h 01m 10s.xml">
       <configuration name="QueueTest.pushPopTwoElements" configurationId="JUnit" />
@@ -561,7 +558,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -594,7 +591,7 @@
           <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="28" />
+      <option name="time" value="29" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -869,21 +866,21 @@
         <state relative-caret-position="119">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#339#340#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
-            <element signature="e#527#528#0" expanded="true" />
-            <element signature="e#580#581#0" expanded="true" />
-            <element signature="e#649#650#0" expanded="true" />
-            <element signature="e#699#700#0" expanded="true" />
-            <element signature="e#767#768#0" expanded="true" />
-            <element signature="e#816#817#0" expanded="true" />
-            <element signature="e#883#884#0" expanded="true" />
-            <element signature="e#936#937#0" expanded="true" />
-            <element signature="e#1003#1004#0" expanded="true" />
-            <element signature="e#1056#1057#0" expanded="true" />
-            <element signature="e#1122#1123#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#339#340#0" expanded="false" />
+            <element signature="e#406#407#0" expanded="false" />
+            <element signature="e#459#460#0" expanded="false" />
+            <element signature="e#527#528#0" expanded="false" />
+            <element signature="e#580#581#0" expanded="false" />
+            <element signature="e#649#650#0" expanded="false" />
+            <element signature="e#699#700#0" expanded="false" />
+            <element signature="e#767#768#0" expanded="false" />
+            <element signature="e#816#817#0" expanded="false" />
+            <element signature="e#883#884#0" expanded="false" />
+            <element signature="e#936#937#0" expanded="false" />
+            <element signature="e#1003#1004#0" expanded="false" />
+            <element signature="e#1056#1057#0" expanded="false" />
+            <element signature="e#1122#1123#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1025,16 +1022,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/cbox/datastructures/MinStackTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cbox/datastructures/MinStack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1046,6 +1033,16 @@
             <element signature="e#380#381#0" expanded="true" />
             <element signature="e#403#404#0" expanded="true" />
             <element signature="e#439#440#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/cbox/datastructures/MinStackTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-510">
+          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -36,6 +36,41 @@ public class MinStackTest {
     }
 
     @Test
+    public void oneElementMin() {
+        ms = new MinStack<>();
+        ms.push(1);
+        Assert.assertEquals((Integer) 1, ms.min());
+    }
+
+    @Test
+    public void twoElementMin() {
+        ms = new MinStack<>();
+        ms.push(1);
+        ms.push(2);
+        Assert.assertEquals((Integer) 1, ms.min());
+    }
+
+    @Test
+    public void threeElementMin() {
+        ms = new MinStack<>();
+        ms.push(1);
+        ms.push(2);
+        ms.push(-1);
+        Assert.assertEquals(Integer.valueOf(-1), ms.min());
+    }
+
+    @Test
+    public void threeElementPopMin() {
+        ms = new MinStack<>();
+        ms.push(1);
+        ms.push(2);
+        ms.push(-1);
+        Assert.assertEquals(Integer.valueOf(-1), ms.min());
+        ms.pop();
+        Assert.assertEquals((Integer) 1, ms.min());
+    }
+
+    @Test
     public void peakPop() {
         ms = new MinStack<>();
         ms.push(1);
