@@ -1,8 +1,17 @@
 package cbox.datastructures;
 
 public class BinarySearchTree<T extends Comparable<T>> {
-    private BiNode<T> root;
+    private Node<T> root;
     private int size = 0;
+
+    private static class Node<T> {
+        private T key;
+        private Node<T> left;
+        private Node<T> right;
+        public Node(T value) {
+            this.key = value;
+        }
+    }
 
     public BinarySearchTree(T...values) {
         add(values);
@@ -35,21 +44,21 @@ public class BinarySearchTree<T extends Comparable<T>> {
 
     // Returns false if element already exists.
     public boolean add(T value) {
-        BiNode<T> newNode = new BiNode<>(value);
+        Node<T> newNode = new Node<>(value);
         boolean added = false;
         if (isEmpty()) {
             root = newNode;
             added = true;
         } else {
-            BiNode<T> p = findParent(value, root);
-            BiNode<T> l = p.getLeft();
-            BiNode<T> r = p.getRight();
-            int comp = value.compareTo(p.getValue());
-            if (comp < 0 && p.getLeft() == null) {
-                p.setLeft(newNode);
+            Node<T> p = findParent(value, root);
+            Node<T> l = p.left;
+            Node<T> r = p.right;
+            int comp = value.compareTo(p.key);
+            if (comp < 0 && p.left == null) {
+                p.left = newNode;
                 added = true;
-            } else if (comp > 0 && p.getRight() == null) {
-                p.setRight(newNode);
+            } else if (comp > 0 && p.right == null) {
+                p.right = newNode;
                 added = true;
             }
         }
@@ -59,19 +68,19 @@ public class BinarySearchTree<T extends Comparable<T>> {
         return added;
     }
 
-    private BiNode<T> findParent(T value, BiNode<T> curr) {
-        int comp = value.compareTo(curr.getValue());
+    private Node<T> findParent(T value, Node<T> curr) {
+        int comp = value.compareTo(curr.key);
         if (comp > 0) {
-            if (curr.getRight() == null || curr.getRight().getValue().equals(value)) {
+            if (curr.right == null || curr.right.key.equals(value)) {
                 return curr;
             } else {
-                return findParent(value, curr.getRight());
+                return findParent(value, curr.right);
             }
         } else if (comp < 0) {
-            if (curr.getLeft() == null || curr.getLeft().getValue().equals(value)) {
+            if (curr.left == null || curr.left.key.equals(value)) {
                 return curr;
             } else {
-                return findParent(value, curr.getLeft());
+                return findParent(value, curr.left);
             }
         } else {
             return curr;
@@ -82,11 +91,11 @@ public class BinarySearchTree<T extends Comparable<T>> {
         if (isEmpty()) {
             return false;
         }
-        BiNode<T> p = findParent(value, root);
-        BiNode<T> l = p.getLeft();
-        BiNode<T> r = p.getRight();
-        if ( (l != null && l.getValue().equals(value)) ||
-             (r != null && r.getValue().equals(value)) ) {
+        Node<T> p = findParent(value, root);
+        Node<T> l = p.left;
+        Node<T> r = p.right;
+        if ( (l != null && l.key.equals(value)) ||
+             (r != null && r.key.equals(value)) ) {
             return true;
         }
         return false;
@@ -98,14 +107,14 @@ public class BinarySearchTree<T extends Comparable<T>> {
     // dependencies and stick to built in solutions - i.e. arrays.
     private int toArrayIdx;
     // Returns elements 'in-order'.
-    private void toArray(BiNode<T> curr, T[] array) {
-        if (curr.getLeft() != null) {
-            toArray(curr.getLeft(), array);
+    private void toArray(Node<T> curr, T[] array) {
+        if (curr.left != null) {
+            toArray(curr.left, array);
         }
-        array[toArrayIdx] = curr.getValue();
+        array[toArrayIdx] = curr.key;
         toArrayIdx++;
-        if (curr.getRight() != null) {
-            toArray(curr.getRight(), array);
+        if (curr.right != null) {
+            toArray(curr.right, array);
         }
     }
 

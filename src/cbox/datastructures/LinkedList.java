@@ -14,6 +14,14 @@ public class LinkedList<T> {
     private Node<T> root;
     private int size;
 
+    private static class Node<T> {
+        private T value;
+        private Node<T> next;
+        public Node(T value) {
+            this.value = value;
+        }
+    }
+
     public LinkedList() {
 
     }
@@ -39,16 +47,16 @@ public class LinkedList<T> {
         }
 
         String delim = " ";
-        if (root.getValue() instanceof String) {
+        if (root.value instanceof String) {
             delim = "";
         }
 
         StringBuilder str = new StringBuilder();
         Node<T> curr = root;
         while (curr != null) {
-            str.append(curr.getValue().toString());
+            str.append(curr.value.toString());
             str.append(delim);
-            curr = curr.getRight();
+            curr = curr.next;
         }
 
         if (delim.equals(" ")) {
@@ -65,8 +73,8 @@ public class LinkedList<T> {
         }
 
         Node<T> curr = root;
-        while (curr.getRight() != null) {
-            curr = curr.getRight();
+        while (curr.next != null) {
+            curr = curr.next;
         }
         return curr;
     }
@@ -76,12 +84,12 @@ public class LinkedList<T> {
         Node<T> curr = root;
 
         if (retPrevious) {
-            while (curr.getRight() != null && !curr.getRight().getValue().equals(value)) {
-                curr = curr.getRight();
+            while (curr.next != null && !curr.next.value.equals(value)) {
+                curr = curr.next;
             }
         } else {
-            while (curr != null && !curr.getValue().equals(value)) {
-                curr = curr.getRight();
+            while (curr != null && !curr.value.equals(value)) {
+                curr = curr.next;
             }
         }
         return curr;
@@ -95,7 +103,7 @@ public class LinkedList<T> {
 
         Node<T> target = initial;
         for (int i = 0; i < offset; i++) {
-            target = target.getRight();
+            target = target.next;
             if (target == null) {
                 break;
             }
@@ -111,7 +119,7 @@ public class LinkedList<T> {
         if (lastNode == null) {
             root = newNode;
         } else {
-            lastNode.setRight(newNode);
+            lastNode.next = newNode;
         }
         size++;
     }
@@ -119,7 +127,7 @@ public class LinkedList<T> {
     // Time complexity: O(1).
     public void prepend(T value) {
         Node<T> node = new Node<>(value);
-        node.setRight(root);
+        node.next = root;
         root = node;
         size++;
     }
@@ -136,8 +144,7 @@ public class LinkedList<T> {
         }
 
         Node<T> initial = findNode(value, true);
-        Node<T> target = skipNodes(initial, 2);
-        initial.setRight(target);
+        initial.next = skipNodes(initial, 2);
         size--;
     }
 }
