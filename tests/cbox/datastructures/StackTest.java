@@ -4,7 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class StackTest {
-    Stack<Integer> s;
+    private Stack<Integer> s;
 
     @Test
     public void isEmptyTrue() {
