@@ -21,6 +21,14 @@ public class QueueTest {
     }
 
     @Test
+    public void isEmptyTrue3() {
+        q = new Queue<>();
+        q.push(1);
+        q.clear();
+        Assert.assertTrue(q.isEmpty());
+    }
+
+    @Test
     public void isEmptyFalse() {
         q = new Queue<>();
         q.push(1);
