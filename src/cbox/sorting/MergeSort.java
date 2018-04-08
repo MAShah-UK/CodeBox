@@ -1,4 +1,4 @@
-package cbox.algorithms;
+package cbox.sorting;
 
 /* Uses merge sort algorithm to sort an array.
 Steps:

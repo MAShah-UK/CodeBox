@@ -33,10 +33,8 @@ public class AddLargeNumbers {
 
     // String input/output solution.
     public static String exec(String num1, String num2) {
-        if (List.of(num1.length(), num2.length()).contains(0)) {
-            return null;
-        }
-        if (List.of(onlyDigits(num1), onlyDigits(num2)).contains(false)) {
+        if (List.of(num1.length(), num2.length()).contains(0) ||
+            List.of(onlyDigits(num1), onlyDigits(num2)).contains(false)) {
             return null;
         }
 

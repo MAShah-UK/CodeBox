@@ -1,4 +1,4 @@
-package cbox.algorithms;
+package cbox.sorting;
 
 import java.util.Arrays;
 

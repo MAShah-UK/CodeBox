@@ -1,4 +1,4 @@
-package cbox.algorithms;
+package cbox.sorting;
 
 import org.junit.Assert;
 import org.junit.Test;

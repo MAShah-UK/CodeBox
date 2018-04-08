@@ -17,7 +17,7 @@ Implementation steps:
 TODO:
 - Support generics.
 - Implement more features.
-- Use efficient algorithms.
+- Use efficient sorting.
  */
 
 import java.util.Arrays;
