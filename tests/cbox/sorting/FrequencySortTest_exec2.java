@@ -3,9 +3,9 @@ package cbox.sorting;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class FrequencySortTest {
+public class FrequencySortTest_exec2 {
     public void checkEqual(Integer[] expected, Integer[] array) {
-        FrequencySort.exec(array);
+        FrequencySort.exec2(array);
         Assert.assertArrayEquals(expected, array);
     }
 

@@ -134,3 +134,50 @@ public class AddLargeNumbers {
         return sum.toString();
     }
 }
+
+/*
+class AddLargeNumbers {
+  public static boolean validString(String num) {
+    return num != null && num.length() > 0 && num.matches("[0-9]+");
+  }
+
+  public static String exec(String num1, String num2) {
+    // TODO: Could trim strings.
+    if (!validString(num1) || !validString(num2)) {
+      return null;
+    }
+
+    int diff = num1.length() - num2.length();
+    if (diff < 0) {
+      return exec(num2, num1);
+    }
+
+    StringBuilder sumStr = new StringBuilder(String.valueOf(new char[num1.length()+1]));
+    int carry = 0;
+    for (int i = num1.length()-1; i >= 0; i--) {
+      int num1Val = num1.charAt(i)-'0';
+      int num2Val = (i-diff >= 0) ? num2.charAt(i-diff)-'0' : 0;
+      int sum = num1Val + num2Val + carry;
+      carry = 0;
+      if(sum > 9) {
+        sum -= 10;
+        carry = 1;
+      }
+      sumStr.setCharAt(i+1, (char)(sum+'0'));
+    }
+    if (carry == 1) {
+      sumStr.setCharAt(0, (char)(carry+'0'));
+    } else {
+      sumStr.deleteCharAt(0);
+    }
+
+    return sumStr.toString();
+  }
+}
+
+public class Main {
+  public static void main(String[] args) {
+    System.out.println(AddLargeNumbers.exec("123", "3"));
+  }
+}
+ */
