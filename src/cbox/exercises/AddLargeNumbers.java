@@ -20,19 +20,56 @@ Steps:
  */
 
 public class AddLargeNumbers {
-    public static boolean onlyDigits(String...strs) {
-        for (String str : strs) {
-            for (char c : str.toCharArray()) {
-                if (!Character.isDigit(c)) {
-                    return false;
+
+    public static String exec(String num1, String num2) {
+        class ValidString {
+            public boolean exec(String...strs) {
+                for (String str: strs) {
+                    if (str == null) {
+                        return false;
+                    }
+                    str = str.trim();
+                    if (str.length() == 0 || !str.matches("[0-9]+")) {
+                        return false;
+                    }
                 }
+                return true;
             }
         }
-        return true;
+        ValidString vs = new ValidString();
+        if (!vs.exec(num1) || !vs.exec(num2)) {
+            return null;
+        }
+
+        int diff = num1.length() - num2.length();
+        if (diff < 0) {
+            return exec(num2, num1);
+        }
+
+        StringBuilder sumStr = new StringBuilder(String.valueOf(new char[num1.length()+1]));
+        int carry = 0;
+        for (int i = num1.length()-1; i >= 0; i--) {
+            int num1Val = num1.charAt(i)-'0';
+            int num2Val = (i-diff >= 0) ? num2.charAt(i-diff)-'0' : 0;
+            int sum = num1Val + num2Val + carry;
+            carry = 0;
+            if(sum > 9) {
+                sum -= 10;
+                carry = 1;
+            }
+            sumStr.setCharAt(i+1, (char)(sum+'0'));
+        }
+        if (carry == 1) {
+            sumStr.setCharAt(0, (char)(carry+'0'));
+        } else {
+            sumStr.deleteCharAt(0);
+        }
+
+        return sumStr.toString();
     }
 
     // String input/output solution.
-    public static String exec(String num1, String num2) {
+    public static String exec2(String num1, String num2) {
         if (List.of(num1.length(), num2.length()).contains(0) ||
             List.of(onlyDigits(num1), onlyDigits(num2)).contains(false)) {
             return null;
@@ -84,14 +121,19 @@ public class AddLargeNumbers {
         return sum.toString();
     }
 
-    public static void padWithZeros(List<Integer> list, int count) {
-        for (int i = 0; i < count; i++) {
-            list.add(0, 0);
+    public static boolean onlyDigits(String...strs) {
+        for (String str : strs) {
+            for (char c : str.toCharArray()) {
+                if (!Character.isDigit(c)) {
+                    return false;
+                }
+            }
         }
+        return true;
     }
 
     // List input/output solution
-    public static List<Integer> exec2(List<Integer> num1, List<Integer> num2) {
+    public static List<Integer> exec3(List<Integer> num1, List<Integer> num2) {
         if (List.of(num1.size(), num2.size()).contains(0)) {
             return null;
         }
@@ -126,8 +168,14 @@ public class AddLargeNumbers {
         return sum;
     }
 
+    public static void padWithZeros(List<Integer> list, int count) {
+        for (int i = 0; i < count; i++) {
+            list.add(0, 0);
+        }
+    }
+
     // Built-in solution.
-    public static String exec3(String num1, String num2) {
+    public static String exec4(String num1, String num2) {
         BigInteger bigInt1 = new BigInteger(num1);
         BigInteger bigInt2 = new BigInteger(num2);
         BigInteger sum = bigInt1.add(bigInt2);
@@ -137,42 +185,7 @@ public class AddLargeNumbers {
 
 /*
 class AddLargeNumbers {
-  public static boolean validString(String num) {
-    return num != null && num.length() > 0 && num.matches("[0-9]+");
-  }
 
-  public static String exec(String num1, String num2) {
-    // TODO: Could trim strings.
-    if (!validString(num1) || !validString(num2)) {
-      return null;
-    }
-
-    int diff = num1.length() - num2.length();
-    if (diff < 0) {
-      return exec(num2, num1);
-    }
-
-    StringBuilder sumStr = new StringBuilder(String.valueOf(new char[num1.length()+1]));
-    int carry = 0;
-    for (int i = num1.length()-1; i >= 0; i--) {
-      int num1Val = num1.charAt(i)-'0';
-      int num2Val = (i-diff >= 0) ? num2.charAt(i-diff)-'0' : 0;
-      int sum = num1Val + num2Val + carry;
-      carry = 0;
-      if(sum > 9) {
-        sum -= 10;
-        carry = 1;
-      }
-      sumStr.setCharAt(i+1, (char)(sum+'0'));
-    }
-    if (carry == 1) {
-      sumStr.setCharAt(0, (char)(carry+'0'));
-    } else {
-      sumStr.deleteCharAt(0);
-    }
-
-    return sumStr.toString();
-  }
 }
 
 public class Main {
