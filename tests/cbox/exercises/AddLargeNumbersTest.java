@@ -1,6 +1,5 @@
 package cbox.exercises;
 
-import cbox.exercises.AddLargeNumbers;
 import org.junit.Assert;
 import org.junit.Test;
 
