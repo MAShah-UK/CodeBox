@@ -23,30 +23,22 @@ public class AddLargeNumbers {
 
     // No padding required.
     public static String exec(String num1, String num2) {
-        class VS {
-            public boolean exec(String[] strs) {
-                for (int i = 0; i < strs.length; i++) {
-                    if (strs[i] == null) {
-                        return false;
-                    }
-                    strs[i] = strs[i].trim();
-                    if(strs[i].length() == 0) {
-                        return false;
-                    }
-                    if (!strs[i].matches("[0-9]+")) {
-                        return false;
-                    }
-                    strs[i] = strs[i].replaceFirst("^0+", "");
-                    if(strs[i].length() == 0) {
-                        strs[i] = "0";
-                    }
-                }
-                return true;
-            }
-        } // ValidString
         String[] strs = new String[]{num1, num2};
-        if (!(new VS()).exec(strs)) {
-            return null;
+        for (int i = 0; i < strs.length; i++) {
+            if (strs[i] == null) {
+                return null;
+            }
+            strs[i] = strs[i].trim();
+            if(strs[i].length() == 0) {
+                return null;
+            }
+            if (!strs[i].matches("[0-9]+")) {
+                return null;
+            }
+            strs[i] = strs[i].replaceFirst("^0+", "");
+            if(strs[i].length() == 0) {
+                strs[i] = "0";
+            }
         }
         num1 = strs[0]; num2 = strs[1];
 
