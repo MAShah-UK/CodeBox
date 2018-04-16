@@ -14,8 +14,8 @@
   * BinarSearchTree - Stores data in tree structure. Each node points to two nodes with small
   * LinkedList - Each node points to next node. 
   * MinStack - Returns minimum element in O(1) time.
-  * Queue - First in first out.
-  * Stack - Last in first out.
+  * Queue - First in first out data structure.
+  * Stack - Last in first out data structure.
 * **Exercises**
   * AddLargeNumbers - uses strings to represent large numbers.
   * AnagramStrings - finds out if two strings can be rearranged to form each other (whitespace ignored).
