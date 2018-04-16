@@ -9,11 +9,6 @@
 * **Concepts**
   * BigO - Provides a measure of how algorithm scales with input data.
   * JavaFundamentals - Abstraction, encapsulation, inheritance, polymorphism.
-* **Sorting**
-  * BubbleSort - Inefficient, but quick to implement. Average time complexity O(n^2).
-  * FrequencySort - Sorts arrays in order of element frequency.
-  * MergeSort - Very fast sort. Worst case is O(nlogn). Requires O(n) memory.
-  * QuickSort - Fast sort. Average case is O(nlogn). Worst case is O(n^2). Requires O(1) memory.
 * **Data Structures**
   * ArrayList - Dynamically resizing array.
   * BinarSearchTree - Stores data in tree structure. Each node points to two nodes with small
@@ -30,4 +25,8 @@
   * MaxShareProfit - Determines maximum profit given share history over a period of time.
   * PalindromeString - Determines if strings are in reverse order of each other.
   * ReverseString - Reverses string by switching opposing elements, e.g. 1st element with last, 2nd element with second last, etc.
-  
+* **Sorting**
+  * BubbleSort - Inefficient, but quick to implement. Average time complexity O(n^2).
+  * FrequencySort - Sorts arrays in order of element frequency.
+  * MergeSort - Very fast sort. Worst case is O(nlogn). Requires O(n) memory.
+  * QuickSort - Fast sort. Average case is O(nlogn). Worst case is O(n^2). Requires O(1) memory.
