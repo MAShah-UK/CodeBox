@@ -1,6 +1,6 @@
 package cbox;
 
-import cbox.assignments.QACinemas;
+import cbox.assignments.qac.QACinemas;
 
 public class Main {
     public static void main(String[] args) {
