@@ -28,6 +28,10 @@ class Console {
         }
     }
 
+    public static void print() {
+        print("", true);
+    }
+    
     public static void print(String str) {
         print(str, true);
     }
@@ -53,7 +57,7 @@ class Console {
             if(choice < 1 || choice > max) {
                 print("This is invalid.", false);
             }
-            System.out.println();
+            print();
         }
 
         return choice;
@@ -70,7 +74,7 @@ class Console {
             } else {
                 print("This is invalid.", false);
             }
-            System.out.println();
+            print();
         }
         return str;
     }
@@ -88,7 +92,7 @@ class Console {
             } else {
                 print("This is invalid.", false);
             }
-            System.out.println();
+            print();
         }
         return result;
     }

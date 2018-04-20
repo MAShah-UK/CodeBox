@@ -1,0 +1,143 @@
+Welcome to QA Cinema's ticket booking system.
+
+Enter 1: For help.
+Enter 2: To add a customer booking.
+Enter 3: To view customers.
+Enter 4: To view movies currently being shown.
+Enter 5: To view showing times.
+Enter 6: To view sales history.
+Enter 7: To exit.
+
+Enter an option: 2
+You entered: 2. 
+
+Enter number of customers: 3
+You entered: 3. 
+
+Create membership for customer (y/n)? y
+You entered: y. 
+Enter customer name: david beckham
+You entered: david beckham. 
+Enter customer age: 444
+You entered: 444. This is invalid.
+Enter customer age: 44
+You entered: 44. 
+Enter customer gender (m/f): m
+You entered: m. 
+
+The following movies are available: 
+1) rampage 2) peter rabbit 3) truth or dare 4) black panther 5) wildling 
+Enter the index of the movie: 6
+You entered: 6. This is invalid.
+Enter the index of the movie: 5
+You entered: 5. 
+
+The following show times are available: 
+1) [Time]:20:00 [Screen]:3 2) [Time]:21:00 [Screen]:1 
+Enter the index for the show time: 1
+You entered: 1. 
+
+The following ticket types are available: 
+STANDARD OAP STUDENT CHILD
+What ticket type does customer 1/3 require? standard
+You entered: standard. 
+The following ticket types are available: 
+STANDARD OAP STUDENT CHILD
+What ticket type does customer 2/3 require? standard
+You entered: standard. 
+The following ticket types are available: 
+STANDARD OAP STUDENT CHILD
+What ticket type does customer 3/3 require? child
+You entered: child. 
+The sales details are as follows: 
+[customers]:3 	[id]:0   [name]:david beckham............ [movie]:wildling................. [date]:20/37/2018 [time]:12:00 [cost]:£20.00 [screen]:1
+
+Is this correct (y/n)? y
+You entered: y. 
+Sale is complete, printing tickets...
+
+Enter an option: 1
+You entered: 1. 
+
+Enter 1: For help.
+Enter 2: To add a customer booking.
+Enter 3: To view customers.
+Enter 4: To view movies currently being shown.
+Enter 5: To view showing times.
+Enter 6: To view sales history.
+Enter 7: To exit.
+
+Enter an option: 3
+You entered: 3. 
+
+The following customers have previously bought tickets: 
+	[id]:1   [name]:john doe................. [age]:22  [gender]:m     
+	[id]:2   [name]:jane doe................. [age]:19  [gender]:f     
+	[id]:3   [name]:jack doe................. [age]:15  [gender]:m     
+	[id]:4   [name]:adam apple............... [age]:82  [gender]:m     
+	[id]:5   [name]:james smith waterhouse... [age]:25  [gender]:m     
+	[id]:6   [name]:lily waterhouse.......... [age]:5   [gender]:f     
+	[id]:9   [name]:matthew bennet........... [age]:26  [gender]:m     
+	[id]:10  [name]:tom welling.............. [age]:9   [gender]:m     
+	[id]:11  [name]:joshua stinson........... [age]:56  [gender]:m     
+	[id]:12  [name]:ross chandler............ [age]:44  [gender]:m     
+	[id]:13  [name]:david beckham............ [age]:44  [gender]:m     
+
+Enter an option: 4
+You entered: 4. 
+
+The following movies are being shown: 
+	[id]:1   [name]:rampage............. [dur]:115 [rel]:11/04/2018
+	[id]:2   [name]:peter rabbit........ [dur]:95  [rel]:03/02/2018
+	[id]:3   [name]:truth or dare....... [dur]:103 [rel]:13/04/2018
+	[id]:4   [name]:black panther....... [dur]:135 [rel]:12/02/2018
+	[id]:5   [name]:wildling............ [dur]:92  [rel]:13/04/2018
+
+Enter an option: 1
+You entered: 1. 
+
+Enter 1: For help.
+Enter 2: To add a customer booking.
+Enter 3: To view customers.
+Enter 4: To view movies currently being shown.
+Enter 5: To view showing times.
+Enter 6: To view sales history.
+Enter 7: To exit.
+
+Enter an option: 5
+You entered: 5. 
+
+The show times are as follows: 
+	[id]:1   [name]:rampage.................. [dur]:12:00 [screen]:1
+	[id]:2   [name]:rampage.................. [dur]:13:00 [screen]:4
+	[id]:3   [name]:peter rabbit............. [dur]:14:00 [screen]:2
+	[id]:4   [name]:peter rabbit............. [dur]:15:00 [screen]:4
+	[id]:5   [name]:truth or dare............ [dur]:16:00 [screen]:3
+	[id]:6   [name]:truth or dare............ [dur]:17:00 [screen]:1
+	[id]:7   [name]:black panther............ [dur]:18:00 [screen]:2
+	[id]:8   [name]:black panther............ [dur]:19:00 [screen]:4
+	[id]:9   [name]:wildling................. [dur]:20:00 [screen]:3
+	[id]:10  [name]:wildling................. [dur]:21:00 [screen]:1
+
+Enter an option: 6
+You entered: 6. 
+
+The sales history is as follows: 
+	[id]:1   [name]:john doe................. [movie]:black panther............ [date]:13/04/2018 [time]:12:00 [cost]:£6.00  [screen]:1
+	[id]:2   [name]:adam apple............... [movie]:truth or dare............ [date]:20/04/2018 [time]:11:00 [cost]:£6.00  [screen]:3
+	[id]:3   [name]:jane doe................. [movie]:wildling................. [date]:15/04/2018 [time]:15:00 [cost]:£6.00  [screen]:2
+	[id]:4   [name]:jack doe................. [movie]:rampage.................. [date]:11/04/2018 [time]:12:00 [cost]:£4.00  [screen]:1
+	[id]:5   [name]:james smith waterhouse... [movie]:peter rabbit............. [date]:03/03/2018 [time]:19:00 [cost]:£8.00  [screen]:3
+	[id]:6   [name]:jane doe................. [movie]:black panther............ [date]:27/02/2018 [time]:17:00 [cost]:£6.00  [screen]:4
+	[id]:7   [name]:john doe................. [movie]:truth or dare............ [date]:15/04/2018 [time]:15:00 [cost]:£6.00  [screen]:1
+	[id]:8   [name]:james smith waterhouse... [movie]:peter rabbit............. [date]:16/03/2018 [time]:18:00 [cost]:£8.00  [screen]:4
+	[id]:9   [name]:jane doe................. [movie]:rampage.................. [date]:15/04/2018 [time]:15:00 [cost]:£6.00  [screen]:2
+	[id]:10  [name]:adam apple............... [movie]:rampage.................. [date]:18/04/2018 [time]:16:00 [cost]:£4.00  [screen]:3
+	[id]:11  [name]:lily waterhouse.......... [movie]:peter rabbit............. [date]:16/03/2018 [time]:17:00 [cost]:£4.00  [screen]:4
+	[id]:12  [name]:ross chandler............ [movie]:truth or dare............ [date]:20/11/2018 [time]:16:00 [cost]:£14.00 [screen]:3
+	[id]:13  [name]:david beckham............ [movie]:wildling................. [date]:20/37/2018 [time]:12:00 [cost]:£20.00 [screen]:1
+
+Enter an option: 7
+You entered: 7. 
+
+Thank you for using QA Cinema's ticket booking system.

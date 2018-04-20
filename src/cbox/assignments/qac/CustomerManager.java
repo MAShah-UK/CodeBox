@@ -41,7 +41,7 @@ public class CustomerManager {
             print(count + ") " + movie.getName() + " ", false);
             count++;
         }
-        System.out.println();
+        print();
         int choice = Console.getInt("Enter the index of the movie: ", movies.size());
         return movies.get(choice-1).getName();
     }
@@ -58,7 +58,7 @@ public class CustomerManager {
                 count++;
             }
         }
-        System.out.println();
+        print();
         int choice = Console.getInt("Enter the index for the show time: ", shows.size());
         return shows.get(choice-1);
     }
@@ -85,17 +85,17 @@ public class CustomerManager {
 
     public void addCustomer() {
         customerCount = Console.getInt("Enter number of customers: ", 10);
-        System.out.println();
+        print();
 
         customer = Console.getBoolean("Create membership for customer (y/n)? ") ?
                 getCustomerDetails() : null;
-        System.out.println();
+        print();
 
         String movieName = getMovieChoice();
-        System.out.println();
+        print();
 
         DataSource.Show show = getShowTimeChoice(movieName);
-        System.out.println();
+        print();
         String time = show.getTime();
         int screen = show.getScreen();
 

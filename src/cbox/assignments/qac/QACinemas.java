@@ -40,9 +40,9 @@ public class QACinemas {
 
     public void exec() {
         print("Welcome to QA Cinema's ticket booking system.");
-        System.out.println();
+        print();
         Console.help();
-        System.out.println();
+        print();
 
         loop();
     }
@@ -51,7 +51,7 @@ public class QACinemas {
         boolean quit = false;
         while(!quit) {
             int choice = Console.getInt("Enter an option: ", Console.getOptionsLength());
-            System.out.println();
+            print();
             switch(choice) {
                 case 1:
                     Console.help();
@@ -76,14 +76,14 @@ public class QACinemas {
                     quit = true;
                     break;
             }
-            System.out.println();
+            print();
         }
     }
 
     private boolean isValidSale(int custCount, DataSource.Sale sale) {
         print("The sales details are as follows: ");
         print("[customers]:" + custCount + " " + sale.toString());
-        System.out.println();
+        print();
         return Console.getBoolean("Is this correct (y/n)? ");
     }
 
@@ -150,6 +150,5 @@ public class QACinemas {
 
     private void exit() {
         print("Thank you for using QA Cinema's ticket booking system.");
-        Logging.get().close();
     }
 }
