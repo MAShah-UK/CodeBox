@@ -3,15 +3,20 @@ package cbox.assignments;
 import java.io.File;
 import java.io.IOException;
 import java.sql.*;
-import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.*;
 import java.util.Date;
 import java.util.logging.*;
 
 import static cbox.assignments.Console.print;
+import static cbox.assignments.Helper.currDate;
 
+// Contains methods to simplify small operations.
 class Helper {
+    public static String currDate(String format) {
+        return new SimpleDateFormat(format).format(new Date());
+    }
+
     public static String joinBy(String str1, String str2, char joinChar) {
         return str1 + joinChar + str2;
     }
@@ -24,6 +29,35 @@ class Helper {
     }
 }
 
+// Simplifies the process of building SQL statements.
+class SQLBuilder {
+    private StringBuilder query = new StringBuilder();
+    @Override
+    public String toString() {
+        return query.toString();
+    }
+    public SQLBuilder select(String[] select, String from) {
+        query.append("SELECT ");
+        for (String cols: select) {
+            query.append(cols).append(", ");
+        }
+        int len = query.length();
+        query.replace(len-2, len, " ");
+        query.append("FROM ").append(from).append(" ");
+        return this;
+    }
+    public SQLBuilder select(String select, String from) {
+        select(new String[]{select}, from);
+        return this;
+    }
+    public SQLBuilder join(String join, String on1, String on2) {
+        query.append("INNER JOIN ").append(join).append(" ");
+        query.append("ON ").append(on1).append(" = ").append(on2).append(" ");
+        return this;
+    }
+}
+
+// Manages interaction with database.
 class DataSource implements AutoCloseable {
     private static final DataSource dataSource = new DataSource();
 
@@ -240,31 +274,22 @@ class DataSource implements AutoCloseable {
             return screen;
         }
     }
-
-    private static class QueryBuilder {
-        private StringBuilder query = new StringBuilder();
+    public static class ShowConcise {
+        private String time;
+        private int screen;
         @Override
         public String toString() {
-            return query.toString();
+            return "[Time: " + time + ", Screen: " + screen + "]";
         }
-        public QueryBuilder select(String[] select, String from) {
-            query.append("SELECT ");
-            for (String cols: select) {
-                query.append(cols).append(", ");
-            }
-            int len = query.length();
-            query.replace(len-2, len, " ");
-            query.append("FROM ").append(from).append(" ");
-            return this;
+        public ShowConcise(String time, int screen) {
+            this.time = time;
+            this.screen = screen;
         }
-        public QueryBuilder select(String select, String from) {
-            select(new String[]{select}, from);
-            return this;
+        public String getTime() {
+            return time;
         }
-        public QueryBuilder join(String join, String on1, String on2) {
-            query.append("INNER JOIN ").append(join).append(" ");
-            query.append("ON ").append(on1).append(" = ").append(on2).append(" ");
-            return this;
+        public int getScreen() {
+            return screen;
         }
     }
 
@@ -291,7 +316,7 @@ class DataSource implements AutoCloseable {
 
     public List<Customer> getCustomers() {
         List<Customer> customers = new LinkedList<>();
-        String query = new QueryBuilder().select("*", Tables.CUSTOMERS.toString()).toString();
+        String query = new SQLBuilder().select("*", Tables.CUSTOMERS.toString()).toString();
         Logging.get().print(query);
         try(Statement statement = conn.createStatement();
             ResultSet res = statement.executeQuery(query)) {
@@ -310,7 +335,7 @@ class DataSource implements AutoCloseable {
 
     public List<Movie> getMovies() {
         List<Movie> movies = new LinkedList<>();
-        String query = new QueryBuilder().select("*", Tables.MOVIES.toString()).toString();
+        String query = new SQLBuilder().select("*", Tables.MOVIES.toString()).toString();
         Logging.get().print(query);
         try(Statement statement = conn.createStatement();
             ResultSet res = statement.executeQuery(query)) {
@@ -327,12 +352,21 @@ class DataSource implements AutoCloseable {
         return movies;
     }
 
+    public Map<Integer, String> getMoviesConcise() {
+        Map<Integer, String> moviesConcise = new HashMap<>();
+        List<Movie> movies = getMovies();
+        for(Movie movie: movies) {
+            moviesConcise.put(moviesConcise.size()+1, movie.name);
+        }
+        return moviesConcise;
+    }
+
     public List<Sale> getSales() {
         List<Sale> sales = new LinkedList<>();
         String[] cols = new String[]{SalesTable._ID.fullyQual(), CustTable.NAME.fullyQual(),
                                      MoviesTable.NAME.fullyQual(), SalesTable.DATE.fullyQual(),
                                      SalesTable.COST.fullyQual(), SalesTable.SCREEN.fullyQual()};
-        String query = new QueryBuilder()
+        String query = new SQLBuilder()
                 .select(cols, Tables.SALES.toString())
                 .join(Tables.CUSTOMERS.toString(),
                       SalesTable.CUSTOMER_ID.fullyQual(), CustTable._ID.fullyQual())
@@ -361,7 +395,7 @@ class DataSource implements AutoCloseable {
         List<Show> shows = new LinkedList<>();
         String[] cols = new String[]{ShowsTable._ID.fullyQual(), MoviesTable.NAME.fullyQual(),
                                      ShowsTable.TIME.fullyQual(), ShowsTable.SCREEN.fullyQual()};
-        String query = new QueryBuilder()
+        String query = new SQLBuilder()
                 .select(cols, Tables.SHOWS.toString())
                 .join(Tables.MOVIES.toString(),
                       ShowsTable.MOVIE_ID.fullyQual(), MoviesTable._ID.fullyQual())
@@ -382,6 +416,18 @@ class DataSource implements AutoCloseable {
         return shows;
     }
 
+    public Map<Integer, ShowConcise> getShowsConcise(String movie) {
+        Map<Integer, ShowConcise> showsConcise = new HashMap<>();
+        List<Show> shows = getShows();
+        for(Show show: shows) {
+            if(show.getMovie().equals(movie)) {
+                showsConcise.put(showsConcise.size()+1,
+                                 new ShowConcise(show.getTime(), show.getScreen()));
+            }
+        }
+        return showsConcise;
+    }
+
     @Override
     public void close() {
         try {
@@ -392,6 +438,7 @@ class DataSource implements AutoCloseable {
     }
 }
 
+// Logs console output to file for historical/debugging purposes.
 class Logging implements AutoCloseable {
     private static final Logging inst = new Logging();
 
@@ -412,9 +459,7 @@ class Logging implements AutoCloseable {
         logger.setLevel(Level.ALL);
 
         // Determine date/time for file name.
-        final DateFormat df = new SimpleDateFormat("yyyy-MM-dd HH-mm-ss");
-        final Date date = new Date();
-        final String dt = df.format(date);
+        final String dt = currDate("yyyy-MM-dd HH-mm-ss");
         try {
             // Create logging file.
             final String path = "data\\logs\\QA Cinemas (" + dt + ").txt";
@@ -444,7 +489,7 @@ class Logging implements AutoCloseable {
     }
 }
 
-// Manages interaction with program user through the console.
+// Manages interaction with program through the console.
 class Console {
     private static final String[] OPTIONS_STRS;
     private static final Scanner sc;
@@ -458,6 +503,10 @@ class Console {
                                    "Enter 6: To view sales history.",
                                    "Enter 7: To exit."};
         sc = new Scanner(System.in);
+    }
+
+    public static int getOptionsLength() {
+        return OPTIONS_STRS.length;
     }
 
     public static void help() {
@@ -478,25 +527,111 @@ class Console {
         Logging.get().print(str);
     }
 
-    // Returns -1 if invalid choice.
-    public static int getChoice() {
+    public static int getInt(String msg, int max) {
         int choice = -1;
-        print("Enter your choice: ", false);
-        String input = sc.nextLine();
-        print("You entered: " + input + ". ", false);
-        if(input.matches("[0-9]+")) {
-            choice = Integer.valueOf(input);
-            choice = (choice >= 1 && choice <= OPTIONS_STRS.length) ? choice : -1;
+        while(choice == -1) {
+            print(msg, false);
+            String input = sc.nextLine();
+            print("You entered: " + input + ". ", false);
+            if(input.matches("[0-9]+")) {
+                choice = Integer.valueOf(input);
+                choice = (choice >= 1 && choice <= max) ? choice : -1;
+            }
+            if(choice < 1 || choice > max) {
+                print("This is invalid.", false);
+            }
+            System.out.println();
         }
-        if(choice < 1 || choice > OPTIONS_STRS.length) {
-            print("This is invalid.", false);
-        }
-        System.out.print("\n\n");
+
         return choice;
+    }
+
+    public static String getString(String msg) {
+        String str = null;
+        while(str == null) {
+            print(msg, false);
+            String input = sc.nextLine();
+            print("You entered: " + input + ". ", false);
+            if(!input.isEmpty() && input.matches("[a-zA-Z]+")) {
+                str = input;
+            } else {
+                print("This is invalid.", false);
+            }
+            System.out.println();
+        }
+        return str.trim().toLowerCase();
     }
 }
 
 public class QACinemas {
+
+    public enum TicketType {
+        STANDARD(8),
+        OAP(6),
+        STUDENT(6),
+        CHILD(4);
+
+        private double cost;
+        TicketType(double cost) {
+            this.cost = cost;
+        }
+        public double getCost() {
+            return cost;
+        }
+        public static boolean contains(String str) {
+            for(TicketType type: values()) {
+                if(type.toString().equals(str)) {
+                    return true;
+                }
+            }
+            return false;
+        }
+        public static String allToString() {
+            StringBuilder sb = new StringBuilder();
+            for(TicketType tt: TicketType.values()) {
+                sb.append(tt.toString()).append(" ");
+            }
+            sb.deleteCharAt(sb.length()-1);
+            return sb.toString();
+        }
+    }
+    public static class Transaction {
+        private int customers;
+        private String customerName;
+        private String movieName;
+        private String date;
+        private String time;
+        private int screen;
+        private double cost;
+        public Transaction(int customers, String customerName, String movieName, String date,
+                           String time, int screen, double cost) {
+            this.customers = customers;
+            this.customerName = customerName;
+            this.movieName = movieName;
+            this.date = date;
+            this.time = time;
+            this.screen = screen;
+            this.cost = cost;
+        }
+        public int getCustomers() {
+            return customers;
+        }
+        public String getCustomerName() {
+            return customerName;
+        }
+        public String getMovieName() {
+            return movieName;
+        }
+        public String getDate() {
+            return date;
+        }
+        public double getCost() {
+            return cost;
+        }
+        public int getScreen() {
+            return screen;
+        }
+    }
 
     public void exec() {
         print("Welcome to QA Cinema's ticket booking system.");
@@ -508,13 +643,9 @@ public class QACinemas {
     }
 
     private void loop() {
-        int choice;
         boolean quit = false;
         while(!quit) {
-            choice = -1;
-            while(choice == -1) {
-                choice = Console.getChoice();
-            }
+            int choice = Console.getInt("Enter your choice: ", Console.getOptionsLength());
             switch(choice) {
                 case 1:
                     Console.help();
@@ -543,8 +674,74 @@ public class QACinemas {
         }
     }
 
+    public String getMovieChoice() {
+        print("The following movies are available: ");
+        Map<Integer, String> moviesMap = DataSource.get().getMoviesConcise();
+        print(moviesMap.toString());
+        int choice = Console.getInt("Enter the index of the movie: ", moviesMap.size());
+        return moviesMap.get(choice);
+    }
+
+    public DataSource.ShowConcise getShowTimeChoice(String movie) {
+        print("The following show times are available: ");
+        Map<Integer, DataSource.ShowConcise> showsMap;
+        showsMap = DataSource.get().getShowsConcise(movie);
+        print(showsMap.toString());
+        int choice = Console.getInt("Enter the index for the show time: ", showsMap.size());
+        return showsMap.get(choice);
+    }
+
+    public double getCost(int customerCount) {
+        double cost = 0;
+        for(int i = 1; i <= customerCount; i++) {
+            String ticketStr = null;
+            print("The following ticket types are available: ");
+            print(TicketType.allToString());
+            while(!TicketType.contains(ticketStr)) {
+                ticketStr = Console.getString("What ticket type does customer "
+                                              + i + "/" + customerCount + " require? ");
+            }
+            cost += TicketType.valueOf(ticketStr).getCost();
+        }
+        return cost;
+    }
+
+    public boolean isValidTransaction(Transaction trans) {
+        print("The transaction details are as follows: ");
+        trans.toString();
+        System.out.println();
+
+        String confirm = Console.getString("Is this correct (y/n)? ");
+        return confirm.equals('y');
+    }
+
+    // Can store customer details for data analytics or to create memberships.
+    // Specify customer name as null when making a sale to indicate a group sale.
     private void addCustomer() {
-        
+        int custCount = Console.getInt("Enter number of customers: ", 10);
+        System.out.println();
+
+        String custName = (custCount == 1) ? Console.getString("Enter customer name: ") : null;
+        System.out.println();
+
+        String movieName = getMovieChoice();
+        System.out.println();
+
+        DataSource.ShowConcise showConcise = getShowTimeChoice(movieName);
+        System.out.println();
+        String time = showConcise.getTime();
+        int screen = showConcise.getScreen();
+
+        String date = currDate("dd/mm/yyyy");
+
+        double cost = getCost(custCount);
+
+        Transaction trans = new Transaction(
+                custCount, custName, movieName, date, time, screen, cost);
+        if(isValidTransaction(trans)) {
+            processTransaction(trans);
+            print("Sale is complete, printing tickets...");
+        }
     }
 
     private void viewCustomers() {
