@@ -38,11 +38,12 @@ public class CustomerManager {
         List<DataSource.Movie> movies = DataSource.get().getMovies();
         int count = 1;
         for(DataSource.Movie movie: movies) {
-            print("[" + count + "] " + movie.getName() + " ", false);
+            print(count + ") " + movie.getName() + " ", false);
             count++;
         }
+        System.out.println();
         int choice = Console.getInt("Enter the index of the movie: ", movies.size());
-        return movies.get(choice+1).getName();
+        return movies.get(choice-1).getName();
     }
 
     private DataSource.Show getShowTimeChoice(String movie) {
@@ -51,11 +52,15 @@ public class CustomerManager {
         List<DataSource.Show> shows = DataSource.get().getShows();
         int count = 1;
         for(DataSource.Show show: shows) {
-            print("[" + count + "] Time: " + show.getTime() + " Screen: " + show.getScreen(), false);
-            count++;
+            if(show.getMovie().equals(movie)) {
+                print(count + ") [Time]:" + show.getTime() + " [Screen]:" +
+                                show.getScreen() + " ", false);
+                count++;
+            }
         }
+        System.out.println();
         int choice = Console.getInt("Enter the index for the show time: ", shows.size());
-        return shows.get(choice+1);
+        return shows.get(choice-1);
     }
 
     private double getCost(int customerCount) {
