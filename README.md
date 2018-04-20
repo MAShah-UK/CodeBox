@@ -6,6 +6,8 @@
   * Java 8/9
   * JUnit 4.12 (unit testing)
 ## Covered Material
+* **Assignments**
+  * QACinemas - Implemented a ticket booking system for a hypothetical cinema chain.
 * **Concepts**
   * BigO - Provides a measure of how algorithm scales with input data.
   * JavaFundamentals - Abstraction, encapsulation, inheritance, polymorphism.
