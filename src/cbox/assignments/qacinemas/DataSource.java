@@ -1,13 +1,11 @@
-package cbox.assignments.qac;
+package cbox.assignments.qacinemas;
 
 import java.sql.*;
-import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
-import java.util.Map;
 
-import static cbox.assignments.qac.Console.print;
-import static cbox.assignments.qac.SQLBuilder.sqlStr;
+import static cbox.assignments.qacinemas.Console.print;
+import static cbox.assignments.qacinemas.SQLBuilder.sqlStr;
 
 // Manages interaction with database.
 class DataSource implements AutoCloseable {

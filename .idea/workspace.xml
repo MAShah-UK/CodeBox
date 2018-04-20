@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb999888-d496-4404-935e-f8c32f61e668" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/cbox/assignments/qac/Console.java" afterPath="$PROJECT_DIR$/src/cbox/assignments/qac/Console.java" />
-      <change beforePath="$PROJECT_DIR$/src/cbox/assignments/qac/CustomerManager.java" afterPath="$PROJECT_DIR$/src/cbox/assignments/qac/CustomerManager.java" />
-      <change beforePath="$PROJECT_DIR$/src/cbox/assignments/qac/Logging.java" afterPath="$PROJECT_DIR$/src/cbox/assignments/qac/Logging.java" />
-      <change beforePath="$PROJECT_DIR$/src/cbox/assignments/qac/QACinemas.java" afterPath="$PROJECT_DIR$/src/cbox/assignments/qac/QACinemas.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodeBox/cbox/assignments/qac/Console Output.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/cbox/Main.java" afterPath="$PROJECT_DIR$/src/cbox/Main.java" />
+      <change beforePath="$PROJECT_DIR$/src/cbox/assignments/qac/Console Output.txt" afterPath="$PROJECT_DIR$/src/cbox/assignments/qacinemas/Console Output.txt" />
+      <change beforePath="$PROJECT_DIR$/src/cbox/assignments/qac/Console.java" afterPath="$PROJECT_DIR$/src/cbox/assignments/qacinemas/Console.java" />
+      <change beforePath="$PROJECT_DIR$/src/cbox/assignments/qac/CustomerManager.java" afterPath="$PROJECT_DIR$/src/cbox/assignments/qacinemas/CustomerManager.java" />
+      <change beforePath="$PROJECT_DIR$/src/cbox/assignments/qac/DataSource.java" afterPath="$PROJECT_DIR$/src/cbox/assignments/qacinemas/DataSource.java" />
+      <change beforePath="$PROJECT_DIR$/src/cbox/assignments/qac/Helper.java" afterPath="$PROJECT_DIR$/src/cbox/assignments/qacinemas/Helper.java" />
+      <change beforePath="$PROJECT_DIR$/src/cbox/assignments/qac/Logging.java" afterPath="$PROJECT_DIR$/src/cbox/assignments/qacinemas/Logging.java" />
+      <change beforePath="$PROJECT_DIR$/src/cbox/assignments/qac/QACinemas.java" afterPath="$PROJECT_DIR$/src/cbox/assignments/qacinemas/QACinemas.java" />
+      <change beforePath="$PROJECT_DIR$/src/cbox/assignments/qac/SQLBuilder.java" afterPath="$PROJECT_DIR$/src/cbox/assignments/qacinemas/SQLBuilder.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,110 +29,110 @@
           <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/cbox/Main.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="119">
-                  <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+                <state relative-caret-position="0">
+                  <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="QACinemas.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/cbox/assignments/qac/QACinemas.java">
+          <file leaf-file-name="QACinemas.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/cbox/assignments/qacinemas/QACinemas.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="4">
-                  <caret line="86" column="11" lean-forward="false" selection-start-line="86" selection-start-column="11" selection-end-line="86" selection-end-column="11" />
+                <state relative-caret-position="1428">
+                  <caret line="84" column="11" lean-forward="false" selection-start-line="84" selection-start-column="11" selection-end-line="84" selection-end-column="11" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#403#404#0" expanded="true" />
-                    <element signature="e#443#444#0" expanded="true" />
-                    <element signature="e#477#478#0" expanded="true" />
-                    <element signature="e#512#513#0" expanded="true" />
-                    <element signature="e#4401#4402#0" expanded="true" />
-                    <element signature="e#4480#4481#0" expanded="true" />
+                    <element signature="e#306#307#0" expanded="true" />
+                    <element signature="e#346#347#0" expanded="true" />
+                    <element signature="e#380#381#0" expanded="true" />
+                    <element signature="e#415#416#0" expanded="true" />
+                    <element signature="e#4304#4305#0" expanded="true" />
+                    <element signature="e#4383#4384#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="DataSource.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/cbox/assignments/qac/DataSource.java">
+          <file leaf-file-name="DataSource.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/cbox/assignments/qacinemas/DataSource.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="372">
-                  <caret line="169" column="103" lean-forward="false" selection-start-line="169" selection-start-column="103" selection-end-line="169" selection-end-column="103" />
+                <state relative-caret-position="629">
+                  <caret line="167" column="103" lean-forward="false" selection-start-line="167" selection-start-column="103" selection-end-line="167" selection-end-column="103" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="class#Tables#0;class#DataSource#0" expanded="false" />
                     <element signature="class#CustTable#0;class#DataSource#0" expanded="false" />
-                    <element signature="e#827#828#0" expanded="true" />
+                    <element signature="e#797#798#0" expanded="true" />
+                    <element signature="e#835#836#0" expanded="true" />
                     <element signature="e#865#866#0" expanded="true" />
-                    <element signature="e#895#896#0" expanded="true" />
-                    <element signature="e#929#930#0" expanded="true" />
-                    <element signature="e#965#966#0" expanded="true" />
-                    <element signature="e#1026#1027#0" expanded="true" />
+                    <element signature="e#899#900#0" expanded="true" />
+                    <element signature="e#935#936#0" expanded="true" />
+                    <element signature="e#996#997#0" expanded="true" />
                     <element signature="class#MoviesTable#0;class#DataSource#0" expanded="false" />
-                    <element signature="e#1194#1195#0" expanded="true" />
+                    <element signature="e#1164#1165#0" expanded="true" />
+                    <element signature="e#1202#1203#0" expanded="true" />
                     <element signature="e#1232#1233#0" expanded="true" />
-                    <element signature="e#1262#1263#0" expanded="true" />
-                    <element signature="e#1296#1297#0" expanded="true" />
-                    <element signature="e#1332#1333#0" expanded="true" />
-                    <element signature="e#1390#1391#0" expanded="true" />
+                    <element signature="e#1266#1267#0" expanded="true" />
+                    <element signature="e#1302#1303#0" expanded="true" />
+                    <element signature="e#1360#1361#0" expanded="true" />
                     <element signature="class#SalesTable#0;class#DataSource#0" expanded="false" />
-                    <element signature="e#1613#1614#0" expanded="true" />
+                    <element signature="e#1583#1584#0" expanded="true" />
+                    <element signature="e#1621#1622#0" expanded="true" />
                     <element signature="e#1651#1652#0" expanded="true" />
-                    <element signature="e#1681#1682#0" expanded="true" />
-                    <element signature="e#1715#1716#0" expanded="true" />
-                    <element signature="e#1751#1752#0" expanded="true" />
-                    <element signature="e#1808#1809#0" expanded="true" />
+                    <element signature="e#1685#1686#0" expanded="true" />
+                    <element signature="e#1721#1722#0" expanded="true" />
+                    <element signature="e#1778#1779#0" expanded="true" />
                     <element signature="class#ShowsTable#0;class#DataSource#0" expanded="false" />
-                    <element signature="e#1973#1974#0" expanded="true" />
+                    <element signature="e#1943#1944#0" expanded="true" />
+                    <element signature="e#1981#1982#0" expanded="true" />
                     <element signature="e#2011#2012#0" expanded="true" />
-                    <element signature="e#2041#2042#0" expanded="true" />
-                    <element signature="e#2075#2076#0" expanded="true" />
-                    <element signature="e#2111#2112#0" expanded="true" />
-                    <element signature="e#2168#2169#0" expanded="true" />
+                    <element signature="e#2045#2046#0" expanded="true" />
+                    <element signature="e#2081#2082#0" expanded="true" />
+                    <element signature="e#2138#2139#0" expanded="true" />
                     <element signature="class#Customer#0;class#DataSource#0" expanded="false" />
-                    <element signature="e#2809#2810#0" expanded="true" />
-                    <element signature="e#2842#2843#0" expanded="true" />
-                    <element signature="e#2876#2877#0" expanded="true" />
+                    <element signature="e#2779#2780#0" expanded="true" />
+                    <element signature="e#2812#2813#0" expanded="true" />
+                    <element signature="e#2846#2847#0" expanded="true" />
+                    <element signature="e#2881#2882#0" expanded="true" />
                     <element signature="e#2911#2912#0" expanded="true" />
-                    <element signature="e#2941#2942#0" expanded="true" />
-                    <element signature="e#2975#2976#0" expanded="true" />
-                    <element signature="e#3009#3010#0" expanded="true" />
-                    <element signature="e#3046#3047#0" expanded="true" />
+                    <element signature="e#2945#2946#0" expanded="true" />
+                    <element signature="e#2979#2980#0" expanded="true" />
+                    <element signature="e#3016#3017#0" expanded="true" />
                     <element signature="class#Movie#0;class#DataSource#0" expanded="false" />
-                    <element signature="e#3712#3713#0" expanded="true" />
-                    <element signature="e#3745#3746#0" expanded="true" />
-                    <element signature="e#3779#3780#0" expanded="true" />
-                    <element signature="e#3814#3815#0" expanded="true" />
-                    <element signature="e#3849#3850#0" expanded="true" />
-                    <element signature="e#3888#3889#0" expanded="true" />
-                    <element signature="e#3925#3926#0" expanded="true" />
-                    <element signature="e#3963#3964#0" expanded="true" />
-                    <element signature="e#4995#4996#0" expanded="true" />
-                    <element signature="e#5028#5029#0" expanded="true" />
-                    <element signature="e#5066#5067#0" expanded="true" />
-                    <element signature="e#5105#5106#0" expanded="true" />
-                    <element signature="e#5144#5145#0" expanded="true" />
-                    <element signature="e#5184#5185#0" expanded="true" />
-                    <element signature="e#5218#5219#0" expanded="true" />
-                    <element signature="e#5253#5254#0" expanded="true" />
-                    <element signature="e#5287#5288#0" expanded="true" />
-                    <element signature="e#5322#5323#0" expanded="true" />
-                    <element signature="e#5356#5357#0" expanded="true" />
-                    <element signature="e#5391#5392#0" expanded="true" />
-                    <element signature="e#5424#5425#0" expanded="true" />
-                    <element signature="e#5461#5462#0" expanded="true" />
+                    <element signature="e#3682#3683#0" expanded="true" />
+                    <element signature="e#3715#3716#0" expanded="true" />
+                    <element signature="e#3749#3750#0" expanded="true" />
+                    <element signature="e#3784#3785#0" expanded="true" />
+                    <element signature="e#3819#3820#0" expanded="true" />
+                    <element signature="e#3858#3859#0" expanded="true" />
+                    <element signature="e#3895#3896#0" expanded="true" />
+                    <element signature="e#3933#3934#0" expanded="true" />
+                    <element signature="e#4965#4966#0" expanded="true" />
+                    <element signature="e#4998#4999#0" expanded="true" />
+                    <element signature="e#5036#5037#0" expanded="true" />
+                    <element signature="e#5075#5076#0" expanded="true" />
+                    <element signature="e#5114#5115#0" expanded="true" />
+                    <element signature="e#5154#5155#0" expanded="true" />
+                    <element signature="e#5188#5189#0" expanded="true" />
+                    <element signature="e#5223#5224#0" expanded="true" />
+                    <element signature="e#5257#5258#0" expanded="true" />
+                    <element signature="e#5292#5293#0" expanded="true" />
+                    <element signature="e#5326#5327#0" expanded="true" />
+                    <element signature="e#5361#5362#0" expanded="true" />
+                    <element signature="e#5394#5395#0" expanded="true" />
+                    <element signature="e#5431#5432#0" expanded="true" />
                     <element signature="class#Show#0;class#DataSource#0" expanded="false" />
-                    <element signature="e#6105#6106#0" expanded="true" />
-                    <element signature="e#6138#6139#0" expanded="true" />
-                    <element signature="e#6173#6174#0" expanded="true" />
-                    <element signature="e#6209#6210#0" expanded="true" />
-                    <element signature="e#6243#6244#0" expanded="true" />
-                    <element signature="e#6278#6279#0" expanded="true" />
-                    <element signature="e#6311#6312#0" expanded="true" />
-                    <element signature="e#6348#6349#0" expanded="true" />
-                    <element signature="e#7203#7204#0" expanded="true" />
-                    <element signature="e#7236#7237#0" expanded="true" />
+                    <element signature="e#6075#6076#0" expanded="true" />
+                    <element signature="e#6108#6109#0" expanded="true" />
+                    <element signature="e#6143#6144#0" expanded="true" />
+                    <element signature="e#6179#6180#0" expanded="true" />
+                    <element signature="e#6213#6214#0" expanded="true" />
+                    <element signature="e#6248#6249#0" expanded="true" />
+                    <element signature="e#6281#6282#0" expanded="true" />
+                    <element signature="e#6318#6319#0" expanded="true" />
+                    <element signature="e#7173#7174#0" expanded="true" />
+                    <element signature="e#7206#7207#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -136,45 +143,47 @@
       <split-second>
         <leaf>
           <file leaf-file-name="CustomerManager.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/cbox/assignments/qac/CustomerManager.java">
+            <entry file="file://$PROJECT_DIR$/src/cbox/assignments/qacinemas/CustomerManager.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1193">
-                  <caret line="98" column="11" lean-forward="false" selection-start-line="98" selection-start-column="11" selection-end-line="98" selection-end-column="11" />
+                <state relative-caret-position="1615">
+                  <caret line="95" column="11" lean-forward="false" selection-start-line="95" selection-start-column="11" selection-end-line="95" selection-end-column="11" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#469#470#0" expanded="true" />
-                    <element signature="e#505#506#0" expanded="true" />
-                    <element signature="e#553#554#0" expanded="true" />
-                    <element signature="e#584#585#0" expanded="true" />
-                    <element signature="e#624#625#0" expanded="true" />
-                    <element signature="e#651#652#0" expanded="true" />
+                    <element signature="e#412#413#0" expanded="true" />
+                    <element signature="e#448#449#0" expanded="true" />
+                    <element signature="e#496#497#0" expanded="true" />
+                    <element signature="e#527#528#0" expanded="true" />
+                    <element signature="e#567#568#0" expanded="true" />
+                    <element signature="e#594#595#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file leaf-file-name="Logging.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/cbox/assignments/qac/Logging.java">
+            <entry file="file://$PROJECT_DIR$/src/cbox/assignments/qacinemas/Logging.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="187">
-                  <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-                  <folding />
+                <state relative-caret-position="339">
+                  <caret line="20" column="22" lean-forward="false" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file leaf-file-name="Console.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/cbox/assignments/qac/Console.java">
+            <entry file="file://$PROJECT_DIR$/src/cbox/assignments/qacinemas/Console.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="629">
                   <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
                   <folding>
-                    <element signature="e#681#682#0" expanded="true" />
-                    <element signature="e#723#724#0" expanded="true" />
-                    <element signature="e#876#877#0" expanded="true" />
-                    <element signature="e#907#908#0" expanded="true" />
-                    <element signature="e#955#956#0" expanded="true" />
-                    <element signature="e#987#988#0" expanded="true" />
+                    <element signature="e#687#688#0" expanded="true" />
+                    <element signature="e#729#730#0" expanded="true" />
+                    <element signature="e#882#883#0" expanded="true" />
+                    <element signature="e#913#914#0" expanded="true" />
+                    <element signature="e#961#962#0" expanded="true" />
+                    <element signature="e#993#994#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -238,7 +247,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/cbox/ms/concepts/JavaBasics.java" />
         <option value="$PROJECT_DIR$/src/com/cbox/ms/algorithms/MergeSort.java" />
         <option value="$PROJECT_DIR$/src/com/cbox/ms/Main.java" />
         <option value="$PROJECT_DIR$/tests/com/cbox/ms/algorithms/sorting/MergeSortTest.java" />
@@ -279,7 +287,6 @@
         <option value="$PROJECT_DIR$/tests/cbox/sorting/FrequencySortTest_exec.java" />
         <option value="$PROJECT_DIR$/tests/cbox/exercises/AddLargeNumbersTest.java" />
         <option value="$PROJECT_DIR$/src/cbox/exercises/AddLargeNumbers.java" />
-        <option value="$PROJECT_DIR$/src/cbox/Main.java" />
         <option value="$PROJECT_DIR$/src/cbox/assignments/QACinemas.java" />
         <option value="$PROJECT_DIR$/src/cbox/assignments/qac/SQLBuilder.java" />
         <option value="$PROJECT_DIR$/src/cbox/assignments/qac/Helper.java" />
@@ -289,13 +296,15 @@
         <option value="$PROJECT_DIR$/src/cbox/assignments/qac/CustomerManager.java" />
         <option value="$PROJECT_DIR$/src/cbox/assignments/qac/Console.java" />
         <option value="$PROJECT_DIR$/src/cbox/assignments/qac/Logging.java" />
+        <option value="$PROJECT_DIR$/src/cbox/assignments/qacinemas/Logging.java" />
+        <option value="$PROJECT_DIR$/src/cbox/Main.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1974" />
+    <option name="x" value="64" />
     <option name="y" value="-8" />
-    <option name="width" value="1874" />
+    <option name="width" value="1864" />
     <option name="height" value="1096" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -352,7 +361,7 @@
               <item name="CodeBox" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="cbox" type="462c0819:PsiDirectoryNode" />
-              <item name="qac" type="462c0819:PsiDirectoryNode" />
+              <item name="qacinemas" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CodeBox" type="b2602c69:ProjectViewProjectNode" />
@@ -425,11 +434,11 @@
     <configuration name="QACinemas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="cbox.assignments.qac.CustomerManager" />
+          <option name="PATTERN" value="cbox.assignments.qacinemas.CustomerManager" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="cbox.assignments.qac.QACinemas" />
+      <option name="MAIN_CLASS_NAME" value="cbox.assignments.qacinemas.QACinemas" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -618,7 +627,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1974" y="-8" width="1874" height="1096" extended-state="6" />
+    <frame x="64" y="-8" width="1864" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -634,7 +643,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15931109" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16017316" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1019,177 +1028,179 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cbox/assignments/qac/SQLBuilder.java">
+    <entry file="file://$PROJECT_DIR$/src/cbox/assignments/qacinemas/SQLBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
           <folding>
-            <element signature="e#202#203#0" expanded="false" />
-            <element signature="e#241#242#0" expanded="false" />
-            <element signature="e#307#308#0" expanded="false" />
-            <element signature="e#347#348#0" expanded="false" />
+            <element signature="e#208#209#0" expanded="false" />
+            <element signature="e#247#248#0" expanded="false" />
+            <element signature="e#313#314#0" expanded="false" />
+            <element signature="e#353#354#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cbox/assignments/qac/Helper.java">
+    <entry file="file://$PROJECT_DIR$/src/cbox/assignments/qacinemas/Helper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="419">
           <caret line="26" column="1" lean-forward="false" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#229#230#0" expanded="false" />
-            <element signature="e#299#300#0" expanded="false" />
-            <element signature="e#343#344#0" expanded="false" />
-            <element signature="e#379#380#0" expanded="false" />
-            <element signature="e#455#456#0" expanded="false" />
-            <element signature="e#500#501#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cbox/assignments/qac/DataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="169" column="103" lean-forward="false" selection-start-line="169" selection-start-column="103" selection-end-line="169" selection-end-column="103" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="class#Tables#0;class#DataSource#0" expanded="false" />
-            <element signature="class#CustTable#0;class#DataSource#0" expanded="false" />
-            <element signature="e#827#828#0" expanded="true" />
-            <element signature="e#865#866#0" expanded="true" />
-            <element signature="e#895#896#0" expanded="true" />
-            <element signature="e#929#930#0" expanded="true" />
-            <element signature="e#965#966#0" expanded="true" />
-            <element signature="e#1026#1027#0" expanded="true" />
-            <element signature="class#MoviesTable#0;class#DataSource#0" expanded="false" />
-            <element signature="e#1194#1195#0" expanded="true" />
-            <element signature="e#1232#1233#0" expanded="true" />
-            <element signature="e#1262#1263#0" expanded="true" />
-            <element signature="e#1296#1297#0" expanded="true" />
-            <element signature="e#1332#1333#0" expanded="true" />
-            <element signature="e#1390#1391#0" expanded="true" />
-            <element signature="class#SalesTable#0;class#DataSource#0" expanded="false" />
-            <element signature="e#1613#1614#0" expanded="true" />
-            <element signature="e#1651#1652#0" expanded="true" />
-            <element signature="e#1681#1682#0" expanded="true" />
-            <element signature="e#1715#1716#0" expanded="true" />
-            <element signature="e#1751#1752#0" expanded="true" />
-            <element signature="e#1808#1809#0" expanded="true" />
-            <element signature="class#ShowsTable#0;class#DataSource#0" expanded="false" />
-            <element signature="e#1973#1974#0" expanded="true" />
-            <element signature="e#2011#2012#0" expanded="true" />
-            <element signature="e#2041#2042#0" expanded="true" />
-            <element signature="e#2075#2076#0" expanded="true" />
-            <element signature="e#2111#2112#0" expanded="true" />
-            <element signature="e#2168#2169#0" expanded="true" />
-            <element signature="class#Customer#0;class#DataSource#0" expanded="false" />
-            <element signature="e#2809#2810#0" expanded="true" />
-            <element signature="e#2842#2843#0" expanded="true" />
-            <element signature="e#2876#2877#0" expanded="true" />
-            <element signature="e#2911#2912#0" expanded="true" />
-            <element signature="e#2941#2942#0" expanded="true" />
-            <element signature="e#2975#2976#0" expanded="true" />
-            <element signature="e#3009#3010#0" expanded="true" />
-            <element signature="e#3046#3047#0" expanded="true" />
-            <element signature="class#Movie#0;class#DataSource#0" expanded="false" />
-            <element signature="e#3712#3713#0" expanded="true" />
-            <element signature="e#3745#3746#0" expanded="true" />
-            <element signature="e#3779#3780#0" expanded="true" />
-            <element signature="e#3814#3815#0" expanded="true" />
-            <element signature="e#3849#3850#0" expanded="true" />
-            <element signature="e#3888#3889#0" expanded="true" />
-            <element signature="e#3925#3926#0" expanded="true" />
-            <element signature="e#3963#3964#0" expanded="true" />
-            <element signature="e#4995#4996#0" expanded="true" />
-            <element signature="e#5028#5029#0" expanded="true" />
-            <element signature="e#5066#5067#0" expanded="true" />
-            <element signature="e#5105#5106#0" expanded="true" />
-            <element signature="e#5144#5145#0" expanded="true" />
-            <element signature="e#5184#5185#0" expanded="true" />
-            <element signature="e#5218#5219#0" expanded="true" />
-            <element signature="e#5253#5254#0" expanded="true" />
-            <element signature="e#5287#5288#0" expanded="true" />
-            <element signature="e#5322#5323#0" expanded="true" />
-            <element signature="e#5356#5357#0" expanded="true" />
-            <element signature="e#5391#5392#0" expanded="true" />
-            <element signature="e#5424#5425#0" expanded="true" />
-            <element signature="e#5461#5462#0" expanded="true" />
-            <element signature="class#Show#0;class#DataSource#0" expanded="false" />
-            <element signature="e#6105#6106#0" expanded="true" />
-            <element signature="e#6138#6139#0" expanded="true" />
-            <element signature="e#6173#6174#0" expanded="true" />
-            <element signature="e#6209#6210#0" expanded="true" />
-            <element signature="e#6243#6244#0" expanded="true" />
-            <element signature="e#6278#6279#0" expanded="true" />
-            <element signature="e#6311#6312#0" expanded="true" />
-            <element signature="e#6348#6349#0" expanded="true" />
-            <element signature="e#7203#7204#0" expanded="true" />
-            <element signature="e#7236#7237#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cbox/assignments/qac/CustomerManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1193">
-          <caret line="98" column="11" lean-forward="false" selection-start-line="98" selection-start-column="11" selection-end-line="98" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#469#470#0" expanded="true" />
-            <element signature="e#505#506#0" expanded="true" />
-            <element signature="e#553#554#0" expanded="true" />
-            <element signature="e#584#585#0" expanded="true" />
-            <element signature="e#624#625#0" expanded="true" />
-            <element signature="e#651#652#0" expanded="true" />
+            <element signature="e#235#236#0" expanded="false" />
+            <element signature="e#305#306#0" expanded="false" />
+            <element signature="e#349#350#0" expanded="false" />
+            <element signature="e#385#386#0" expanded="false" />
+            <element signature="e#461#462#0" expanded="false" />
+            <element signature="e#506#507#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cbox/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cbox/assignments/qac/QACinemas.java">
+    <entry file="file://$PROJECT_DIR$/src/cbox/assignments/qacinemas/QACinemas.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4">
-          <caret line="86" column="11" lean-forward="false" selection-start-line="86" selection-start-column="11" selection-end-line="86" selection-end-column="11" />
+        <state relative-caret-position="1428">
+          <caret line="84" column="11" lean-forward="false" selection-start-line="84" selection-start-column="11" selection-end-line="84" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#403#404#0" expanded="true" />
-            <element signature="e#443#444#0" expanded="true" />
-            <element signature="e#477#478#0" expanded="true" />
-            <element signature="e#512#513#0" expanded="true" />
-            <element signature="e#4401#4402#0" expanded="true" />
-            <element signature="e#4480#4481#0" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#4304#4305#0" expanded="true" />
+            <element signature="e#4383#4384#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cbox/assignments/qac/Console.java">
+    <entry file="file://$PROJECT_DIR$/src/cbox/assignments/qacinemas/DataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="167" column="103" lean-forward="false" selection-start-line="167" selection-start-column="103" selection-end-line="167" selection-end-column="103" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#Tables#0;class#DataSource#0" expanded="false" />
+            <element signature="class#CustTable#0;class#DataSource#0" expanded="false" />
+            <element signature="e#797#798#0" expanded="true" />
+            <element signature="e#835#836#0" expanded="true" />
+            <element signature="e#865#866#0" expanded="true" />
+            <element signature="e#899#900#0" expanded="true" />
+            <element signature="e#935#936#0" expanded="true" />
+            <element signature="e#996#997#0" expanded="true" />
+            <element signature="class#MoviesTable#0;class#DataSource#0" expanded="false" />
+            <element signature="e#1164#1165#0" expanded="true" />
+            <element signature="e#1202#1203#0" expanded="true" />
+            <element signature="e#1232#1233#0" expanded="true" />
+            <element signature="e#1266#1267#0" expanded="true" />
+            <element signature="e#1302#1303#0" expanded="true" />
+            <element signature="e#1360#1361#0" expanded="true" />
+            <element signature="class#SalesTable#0;class#DataSource#0" expanded="false" />
+            <element signature="e#1583#1584#0" expanded="true" />
+            <element signature="e#1621#1622#0" expanded="true" />
+            <element signature="e#1651#1652#0" expanded="true" />
+            <element signature="e#1685#1686#0" expanded="true" />
+            <element signature="e#1721#1722#0" expanded="true" />
+            <element signature="e#1778#1779#0" expanded="true" />
+            <element signature="class#ShowsTable#0;class#DataSource#0" expanded="false" />
+            <element signature="e#1943#1944#0" expanded="true" />
+            <element signature="e#1981#1982#0" expanded="true" />
+            <element signature="e#2011#2012#0" expanded="true" />
+            <element signature="e#2045#2046#0" expanded="true" />
+            <element signature="e#2081#2082#0" expanded="true" />
+            <element signature="e#2138#2139#0" expanded="true" />
+            <element signature="class#Customer#0;class#DataSource#0" expanded="false" />
+            <element signature="e#2779#2780#0" expanded="true" />
+            <element signature="e#2812#2813#0" expanded="true" />
+            <element signature="e#2846#2847#0" expanded="true" />
+            <element signature="e#2881#2882#0" expanded="true" />
+            <element signature="e#2911#2912#0" expanded="true" />
+            <element signature="e#2945#2946#0" expanded="true" />
+            <element signature="e#2979#2980#0" expanded="true" />
+            <element signature="e#3016#3017#0" expanded="true" />
+            <element signature="class#Movie#0;class#DataSource#0" expanded="false" />
+            <element signature="e#3682#3683#0" expanded="true" />
+            <element signature="e#3715#3716#0" expanded="true" />
+            <element signature="e#3749#3750#0" expanded="true" />
+            <element signature="e#3784#3785#0" expanded="true" />
+            <element signature="e#3819#3820#0" expanded="true" />
+            <element signature="e#3858#3859#0" expanded="true" />
+            <element signature="e#3895#3896#0" expanded="true" />
+            <element signature="e#3933#3934#0" expanded="true" />
+            <element signature="e#4965#4966#0" expanded="true" />
+            <element signature="e#4998#4999#0" expanded="true" />
+            <element signature="e#5036#5037#0" expanded="true" />
+            <element signature="e#5075#5076#0" expanded="true" />
+            <element signature="e#5114#5115#0" expanded="true" />
+            <element signature="e#5154#5155#0" expanded="true" />
+            <element signature="e#5188#5189#0" expanded="true" />
+            <element signature="e#5223#5224#0" expanded="true" />
+            <element signature="e#5257#5258#0" expanded="true" />
+            <element signature="e#5292#5293#0" expanded="true" />
+            <element signature="e#5326#5327#0" expanded="true" />
+            <element signature="e#5361#5362#0" expanded="true" />
+            <element signature="e#5394#5395#0" expanded="true" />
+            <element signature="e#5431#5432#0" expanded="true" />
+            <element signature="class#Show#0;class#DataSource#0" expanded="false" />
+            <element signature="e#6075#6076#0" expanded="true" />
+            <element signature="e#6108#6109#0" expanded="true" />
+            <element signature="e#6143#6144#0" expanded="true" />
+            <element signature="e#6179#6180#0" expanded="true" />
+            <element signature="e#6213#6214#0" expanded="true" />
+            <element signature="e#6248#6249#0" expanded="true" />
+            <element signature="e#6281#6282#0" expanded="true" />
+            <element signature="e#6318#6319#0" expanded="true" />
+            <element signature="e#7173#7174#0" expanded="true" />
+            <element signature="e#7206#7207#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cbox/assignments/qacinemas/Console.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding>
-            <element signature="e#681#682#0" expanded="true" />
-            <element signature="e#723#724#0" expanded="true" />
-            <element signature="e#876#877#0" expanded="true" />
-            <element signature="e#907#908#0" expanded="true" />
-            <element signature="e#955#956#0" expanded="true" />
-            <element signature="e#987#988#0" expanded="true" />
+            <element signature="e#687#688#0" expanded="true" />
+            <element signature="e#729#730#0" expanded="true" />
+            <element signature="e#882#883#0" expanded="true" />
+            <element signature="e#913#914#0" expanded="true" />
+            <element signature="e#961#962#0" expanded="true" />
+            <element signature="e#993#994#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cbox/assignments/qac/Logging.java">
+    <entry file="file://$PROJECT_DIR$/src/cbox/assignments/qacinemas/CustomerManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-          <folding />
+        <state relative-caret-position="1615">
+          <caret line="95" column="11" lean-forward="false" selection-start-line="95" selection-start-column="11" selection-end-line="95" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cbox/assignments/qacinemas/Logging.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="20" column="22" lean-forward="false" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

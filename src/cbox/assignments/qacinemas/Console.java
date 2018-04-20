@@ -1,4 +1,4 @@
-package cbox.assignments.qac;
+package cbox.assignments.qacinemas;
 
 import java.util.Scanner;
 

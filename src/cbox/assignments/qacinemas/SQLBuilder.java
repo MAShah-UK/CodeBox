@@ -1,4 +1,4 @@
-package cbox.assignments.qac;
+package cbox.assignments.qacinemas;
 
 // Simplifies the process of building SQL statements.
 class SQLBuilder {

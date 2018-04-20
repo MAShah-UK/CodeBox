@@ -1,14 +1,12 @@
-package cbox.assignments.qac;
+package cbox.assignments.qacinemas;
 
-import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
-import java.util.logging.*;
 
-import static cbox.assignments.qac.Helper.currDate;
+import static cbox.assignments.qacinemas.Helper.currDate;
 
 // Logs console output to file for historical/debugging purposes.
 class Logging {

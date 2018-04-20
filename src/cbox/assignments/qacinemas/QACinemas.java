@@ -1,10 +1,8 @@
-package cbox.assignments.qac;
+package cbox.assignments.qacinemas;
 
 import java.util.*;
 
-import static cbox.assignments.qac.Console.print;
-import static cbox.assignments.qac.Helper.currDate;
-import static cbox.assignments.qac.Helper.currDayOfWeek;
+import static cbox.assignments.qacinemas.Console.print;
 
 public class QACinemas {
     public enum TicketType {

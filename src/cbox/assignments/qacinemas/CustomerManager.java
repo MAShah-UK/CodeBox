@@ -1,13 +1,10 @@
-package cbox.assignments.qac;
+package cbox.assignments.qacinemas;
 
-import javax.xml.crypto.Data;
-import java.util.LinkedList;
 import java.util.List;
-import java.util.Map;
 
-import static cbox.assignments.qac.Console.print;
-import static cbox.assignments.qac.Helper.currDate;
-import static cbox.assignments.qac.Helper.currDayOfWeek;
+import static cbox.assignments.qacinemas.Console.print;
+import static cbox.assignments.qacinemas.Helper.currDate;
+import static cbox.assignments.qacinemas.Helper.currDayOfWeek;
 
 public class CustomerManager {
     private int customerCount;
