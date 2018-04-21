@@ -19,11 +19,11 @@
   * Queue - First in first out data structure.
   * Stack - Last in first out data structure.
 * **Exercises**
-  * AddLargeNumbers - uses strings to represent large numbers.
-  * AnagramStrings - finds out if two strings can be rearranged to form each other (whitespace ignored).
-  * ArrayBinarySearch - Applies binary search to an array. Eliminates half of the possibilities in each iteration.
-  * BalancedBrackets - Uses stack to determine if brackets in a string are balanced, e.g. {()[()]} is, (() isn't.
-  * FindPairsForN - Finds pairs of numbers from an array that add up to target value.
+  * AddLargeNumbers - Uses strings to represent large numbers.
+  * AnagramStrings - Determines whether two strings can be rearranged to form each other (whitespace ignored).
+  * ArrayBinarySearch - Applies binary search to an array, eliminating half of the possibilities in each iteration.
+  * BalancedBrackets - Uses stack to determine if brackets in a string are balanced, e.g. "{()[()]}" is, "(()" isn't.
+  * FindPairsForN - Determines pairs of numbers from an array that add up to a target value.
   * MaxShareProfit - Determines maximum profit given share history over a period of time.
   * PalindromeString - Determines if strings are in reverse order of each other.
   * PascalsTriangle - Returns the nth line of Pascal's triangle.
@@ -31,5 +31,5 @@
 * **Sorting**
   * BubbleSort - Inefficient, but quick to implement. Average time complexity O(n^2).
   * FrequencySort - Sorts arrays in order of element frequency.
-  * MergeSort - Very fast sort. Worst case is O(nlogn). Requires O(n) memory.
+  * MergeSort - Very fast sort. Worst case is O(nlogn), but requires O(n) memory.
   * QuickSort - Fast sort. Average case is O(nlogn). Worst case is O(n^2). Requires O(1) memory.
