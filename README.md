@@ -19,7 +19,7 @@
   * Queue - First in first out data structure.
   * Stack - Last in first out data structure.
 * **Exercises**
-  * AddLargeNumbers - Uses strings to represent large numbers.
+  * AddLargeNumbers - Uses strings to represent large numbers and add them together.
   * AnagramStrings - Determines whether two strings can be rearranged to form each other (whitespace ignored).
   * ArrayBinarySearch - Applies binary search to an array, eliminating half of the possibilities in each iteration.
   * BalancedBrackets - Uses stack to determine if brackets in a string are balanced, e.g. "{()[()]}" is, "(()" isn't.
