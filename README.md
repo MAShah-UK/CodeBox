@@ -28,7 +28,7 @@
   * MaxShareProfit - Determines maximum profit given share history over a period of time.
   * PalindromeString - Determines if strings are in reverse order of each other.
   * PascalsTriangle - Returns the nth line of Pascal's triangle.
-  * ReverseString - Reverses string by switching opposing elements, e.g. 1st element with last, 2nd element with 2nd last, etc.
+  * ReverseString - Reverses string by swapping elements, e.g. 1st element with last, 2nd element with 2nd last, etc.
 * **Sorting**
   * BubbleSort - Inefficient, but quick to implement. Average time complexity O(n^2).
   * FrequencySort - Sorts arrays in order of element frequency.
