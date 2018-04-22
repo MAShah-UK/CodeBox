@@ -14,7 +14,8 @@
 * **Data Structures**
   * ArrayList - Dynamically resizing array.
   * BinarSearchTree - Stores data in tree structure. Each node points to two nodes with small
-  * LinkedList - Each node points to next node. 
+  * LinkedList - Each node points to next node.
+  * LinkedListTable - Elements are added/accessed using row and column indicies. Table can be flattened into an array.
   * MinStack - Returns minimum element in O(1) time.
   * Queue - First in first out data structure.
   * Stack - Last in first out data structure.
