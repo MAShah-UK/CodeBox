@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb999888-d496-4404-935e-f8c32f61e668" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/cbox/datastructures/LRUCache.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/cbox/exercises/ReverseStack.java" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,11 +29,45 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="TableBinarySearch.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="TableBinarySearch.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/cbox/exercises/TableBinarySearch.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="323">
                   <caret line="19" column="36" lean-forward="false" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="LRUCache.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/cbox/datastructures/LRUCache.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="340">
+                  <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#347#348#0" expanded="true" />
+                    <element signature="e#383#384#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ReverseStack.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/cbox/exercises/ReverseStack.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="187">
+                  <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Map.java" pinned="false" current-in-tab="false">
+            <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/java.base/java/util/Map.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="3876">
+                  <caret line="404" column="14" lean-forward="false" selection-start-line="404" selection-start-column="14" selection-end-line="404" selection-end-column="14" />
                   <folding />
                 </state>
               </provider>
@@ -152,8 +189,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/cbox/ms/algorithms/sorting/QuickSort.java" />
-        <option value="$PROJECT_DIR$/src/com/cbox/ms/algorithms/exercises/FindPairsForN.java" />
         <option value="$PROJECT_DIR$/src/com/cbox/ms/algorithms/sorting/FrequencySort.java" />
         <option value="$PROJECT_DIR$/tests/com/cbox/ms/algorithms/exercises/MaxShareProfitTest.java" />
         <option value="$PROJECT_DIR$/tests/com/cbox/ms/algorithms/sorting/FrequencySortTest.java" />
@@ -203,6 +238,8 @@
         <option value="$PROJECT_DIR$/tests/cbox/exercises/TableStairSearchTest.java" />
         <option value="$PROJECT_DIR$/tests/cbox/exercises/TableBinarySearchTest.java" />
         <option value="$PROJECT_DIR$/src/cbox/exercises/TableBinarySearch.java" />
+        <option value="$PROJECT_DIR$/src/cbox/datastructures/LRUCache.java" />
+        <option value="$PROJECT_DIR$/src/cbox/exercises/ReverseStack.java" />
       </list>
     </option>
   </component>
@@ -266,7 +303,7 @@
               <item name="CodeBox" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="cbox" type="462c0819:PsiDirectoryNode" />
-              <item name="qacinemas" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructures" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CodeBox" type="b2602c69:ProjectViewProjectNode" />
@@ -535,9 +572,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TableBinarySearchTest - 2018.04.23 at 12h 05m 03s.xml">
-      <configuration name="TableBinarySearchTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TableBinarySearchTest - 2018.04.23 at 12h 07m 41s.xml">
       <configuration name="TableBinarySearchTest" configurationId="JUnit" />
     </history-entry>
@@ -551,6 +585,9 @@
       <configuration name="TableBinarySearchTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TableBinarySearchTest - 2018.04.23 at 15h 57m 35s.xml">
+      <configuration name="TableBinarySearchTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TableBinarySearchTest - 2018.04.23 at 15h 59m 33s.xml">
       <configuration name="TableBinarySearchTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TableBinarySearchTest_oneColumn_invalid - 2018.04.23 at 13h 15m 13s.xml">
@@ -663,15 +700,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/cbox/datastructures/Node.java" />
-    <entry file="file://$PROJECT_DIR$/src/cbox/datastructures/BiNode.java" />
-    <entry file="file://$PROJECT_DIR$/src/cbox/datastructures/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="679">
-          <caret line="145" column="48" lean-forward="false" selection-start-line="145" selection-start-column="48" selection-end-line="145" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/cbox/datastructures/LinkedListTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
@@ -1272,6 +1300,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="36" lean-forward="false" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/java.base/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3876">
+          <caret line="404" column="14" lean-forward="false" selection-start-line="404" selection-start-column="14" selection-end-line="404" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cbox/datastructures/LRUCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cbox/exercises/ReverseStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
