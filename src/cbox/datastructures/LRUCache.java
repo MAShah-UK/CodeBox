@@ -9,7 +9,7 @@ public class LRUCache<T, U> extends LinkedHashMap<T, U> {
     private int size;
 
     @Override
-    private boolean removeEldestEntry(Map.Entry eldest) {
+    protected boolean removeEldestEntry(Map.Entry eldest) {
         return size() > size;
     }
 
