@@ -13,7 +13,7 @@
   * JavaFundamentals - Abstraction, encapsulation, inheritance, polymorphism.
 * **Data Structures**
   * ArrayList - Dynamically resizing array.
-  * BinarSearchTree - Stores data in tree structure. Each node points to two nodes with small
+  * BinarSearchTree - Stores data in tree structure. Each node points to two nodes with small.
   * LinkedList - Each node points to next node.
   * LinkedListTable - Elements are added/accessed using row and column indicies. Table can be flattened into an array.
   * LRUCacheHM - LRU cache implemented using a HashMap. Elements are ordered and removed by access time.
