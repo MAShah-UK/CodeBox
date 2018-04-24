@@ -16,8 +16,10 @@
   * BinarSearchTree - Stores data in tree structure. Each node points to two nodes with small
   * LinkedList - Each node points to next node.
   * LinkedListTable - Elements are added/accessed using row and column indicies. Table can be flattened into an array.
-  * MinStack - Returns minimum element in O(1) time.
-  * Queue - First in first out data structure.
+  * LRUCacheHM - Least recently used cache implemented using a HashMap. Elements are ordered and removed by access time.
+  * LRUCacheLHM - LRU cache implemented using a LinkedHashMap.
+  * MinStack - Returns minimum element in O(1) time. Uses another stack to keep track of minimum value.
+  * Queue - First in first out data structure. Uses head and tail references to manage both ends of a list of nodes.
   * Stack - Last in first out data structure.
 * **Exercises**
   * AddLargeNumbers - Uses strings to represent large numbers and add them together.
