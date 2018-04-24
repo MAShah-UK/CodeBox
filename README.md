@@ -27,10 +27,13 @@
   * ArrayBinarySearch - Applies binary search to an array, eliminating half of the possibilities in each iteration.
   * BalancedBrackets - Uses stack to determine if brackets in a string are balanced, e.g. "{()[()]}" is, "(()" isn't.
   * FindPairsForN - Determines pairs of numbers from an array that add up to a target value.
+  * IsSubstring - Determines if one of two input strings is a substring of the other.
   * MaxShareProfit - Determines maximum profit given share history over a period of time.
   * PalindromeString - Determines if strings are in reverse order of each other.
   * PascalsTriangle - Returns the nth line of Pascal's triangle.
   * ReverseString - Reverses string by swapping elements, e.g. 1st element with last, 2nd element with 2nd last, etc.
+  * TableBinarySearch - Uses binary search on a 2D array. Each element must be in increasing order.
+  * TableStairSearch - Uses stair search on a 2D array. Each row must be in increasing order.
 * **Sorting**
   * BubbleSort - Inefficient, but quick to implement. Average time complexity O(n^2).
   * FrequencySort - Sorts arrays in order of element frequency.
