@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb999888-d496-4404-935e-f8c32f61e668" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/cbox/exercises/IsSubstring.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tests/cbox/exercises/IsSubstringTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/cbox/datastructures/LRUCacheHM.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tests/cbox/datastructures/LRUCacheHMTest.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/cbox/datastructures/LRUCache.java" afterPath="$PROJECT_DIR$/src/cbox/datastructures/LRUCache.java" />
+      <change beforePath="$PROJECT_DIR$/src/cbox/datastructures/LRUCache.java" afterPath="$PROJECT_DIR$/src/cbox/datastructures/LRUCacheLHM.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,22 +29,45 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ReverseStack.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/cbox/exercises/ReverseStack.java">
+          <file leaf-file-name="LRUCacheLHM.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/cbox/datastructures/LRUCacheLHM.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="187">
-                  <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-                  <folding />
+                <state relative-caret-position="136">
+                  <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#387#388#0" expanded="true" />
+                    <element signature="e#423#424#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="IsSubstring.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/cbox/exercises/IsSubstring.java">
+          <file leaf-file-name="LRUCacheHM.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/cbox/datastructures/LRUCacheHM.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
-                  <caret line="17" column="42" lean-forward="false" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
-                  <folding />
+                <state relative-caret-position="527">
+                  <caret line="102" column="16" lean-forward="false" selection-start-line="102" selection-start-column="16" selection-end-line="102" selection-end-column="16" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="class#Node#0;class#LRUCacheHM#0" expanded="false" />
+                    <element signature="e#529#530#0" expanded="true" />
+                    <element signature="e#567#568#0" expanded="true" />
+                    <element signature="e#595#596#0" expanded="true" />
+                    <element signature="e#629#630#0" expanded="true" />
+                    <element signature="e#664#665#0" expanded="true" />
+                    <element signature="e#699#700#0" expanded="true" />
+                    <element signature="e#743#744#0" expanded="true" />
+                    <element signature="e#783#784#0" expanded="true" />
+                    <element signature="e#818#819#0" expanded="true" />
+                    <element signature="e#853#854#0" expanded="true" />
+                    <element signature="e#897#898#0" expanded="true" />
+                    <element signature="e#937#938#0" expanded="true" />
+                    <element signature="e#1088#1089#0" expanded="true" />
+                    <element signature="e#1118#1119#0" expanded="true" />
+                    <element signature="e#1153#1154#0" expanded="true" />
+                    <element signature="e#1186#1187#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -53,33 +76,33 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="TableBinarySearchTest.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/tests/cbox/exercises/TableBinarySearchTest.java">
+          <file leaf-file-name="LRUCacheHMTest.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/tests/cbox/datastructures/LRUCacheHMTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="374">
-                  <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+                <state relative-caret-position="187">
+                  <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#149#150#0" expanded="true" />
-                    <element signature="e#219#220#0" expanded="true" />
-                    <element signature="e#267#268#0" expanded="true" />
-                    <element signature="e#349#350#0" expanded="true" />
-                    <element signature="e#399#400#0" expanded="true" />
-                    <element signature="e#482#483#0" expanded="true" />
                     <element signature="e#529#530#0" expanded="true" />
-                    <element signature="e#618#619#0" expanded="true" />
-                    <element signature="e#667#668#0" expanded="true" />
-                    <element signature="e#756#757#0" expanded="true" />
-                    <element signature="e#800#801#0" expanded="true" />
-                    <element signature="e#886#887#0" expanded="true" />
-                    <element signature="e#932#933#0" expanded="true" />
-                    <element signature="e#1019#1020#0" expanded="true" />
+                    <element signature="e#595#596#0" expanded="true" />
+                    <element signature="e#633#634#0" expanded="true" />
+                    <element signature="e#705#706#0" expanded="true" />
+                    <element signature="e#745#746#0" expanded="true" />
+                    <element signature="e#823#824#0" expanded="true" />
+                    <element signature="e#871#872#0" expanded="true" />
+                    <element signature="e#940#941#0" expanded="true" />
+                    <element signature="e#990#991#0" expanded="true" />
+                    <element signature="e#1065#1066#0" expanded="true" />
+                    <element signature="e#1113#1114#0" expanded="true" />
+                    <element signature="e#1194#1195#0" expanded="true" />
+                    <element signature="e#1252#1253#0" expanded="true" />
+                    <element signature="e#1336#1337#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="IsSubstringTest.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="IsSubstringTest.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/tests/cbox/exercises/IsSubstringTest.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="391">
@@ -131,6 +154,7 @@
       <find>fullyQual()</find>
       <find>System.out.println()</find>
       <find>TableStairSearch</find>
+      <find>exists</find>
     </findStrings>
     <replaceStrings>
       <replace>strList</replace>
@@ -148,6 +172,7 @@
       <replace>toString()</replace>
       <replace>print()</replace>
       <replace>TableBinarySearch</replace>
+      <replace>node</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -161,9 +186,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/tests/com/cbox/ms/algorithms/sorting/FrequencySortTest.java" />
-        <option value="$PROJECT_DIR$/tests/com/cbox/ms/algorithms/exercises/FrequencySortTest.java" />
-        <option value="$PROJECT_DIR$/src/com/cbox/ms/algorithms/exercises/ReverseString.java" />
         <option value="$PROJECT_DIR$/src/com/cbox/ms/algorithms/exercises/AddLargeNumbers.java" />
         <option value="$PROJECT_DIR$/src/com/cbox/ms/datastructures/ArrayList.java" />
         <option value="$PROJECT_DIR$/tests/com/cbox/ms/datastructures/ArrayListTest.java" />
@@ -210,8 +232,11 @@
         <option value="$PROJECT_DIR$/src/cbox/exercises/TableBinarySearch.java" />
         <option value="$PROJECT_DIR$/src/cbox/exercises/ReverseStack.java" />
         <option value="$PROJECT_DIR$/src/cbox/exercises/IsSubstring.java" />
-        <option value="$PROJECT_DIR$/src/cbox/datastructures/LRUCache.java" />
         <option value="$PROJECT_DIR$/tests/cbox/exercises/IsSubstringTest.java" />
+        <option value="$PROJECT_DIR$/src/cbox/datastructures/LRUCache.java" />
+        <option value="$PROJECT_DIR$/src/cbox/datastructures/LRUCacheLHM.java" />
+        <option value="$PROJECT_DIR$/tests/cbox/datastructures/LRUCacheHMTest.java" />
+        <option value="$PROJECT_DIR$/src/cbox/datastructures/LRUCacheHM.java" />
       </list>
     </option>
   </component>
@@ -357,19 +382,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.IsSubstringTest.invalidSubstring">
-    <configuration name="IsSubstringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.LRUCacheHMTest">
+    <configuration name="LRUCacheHMTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="cbox.exercises.*" />
+          <option name="PATTERN" value="cbox.datastructures.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="CodeBox" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="cbox.exercises" />
-      <option name="MAIN_CLASS_NAME" value="cbox.exercises.IsSubstringTest" />
+      <option name="PACKAGE_NAME" value="cbox.datastructures" />
+      <option name="MAIN_CLASS_NAME" value="cbox.datastructures.LRUCacheHMTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
@@ -383,19 +408,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="IsSubstringTest.invalidSubstring" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LRUCacheHMTest.addFive_extraTwo_repeatOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="cbox.exercises.*" />
+          <option name="PATTERN" value="cbox.datastructures.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="CodeBox" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="cbox.exercises" />
-      <option name="MAIN_CLASS_NAME" value="cbox.exercises.IsSubstringTest" />
-      <option name="METHOD_NAME" value="invalidSubstring" />
+      <option name="PACKAGE_NAME" value="cbox.datastructures" />
+      <option name="MAIN_CLASS_NAME" value="cbox.datastructures.LRUCacheHMTest" />
+      <option name="METHOD_NAME" value="addFive_extraTwo_repeatOne" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -408,44 +433,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="TableBinarySearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LRUCacheHMTest.addFour_extraOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="cbox.exercises.*" />
+          <option name="PATTERN" value="cbox.datastructures.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="CodeBox" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="cbox.exercises" />
-      <option name="MAIN_CLASS_NAME" value="cbox.exercises.TableBinarySearchTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="TableBinarySearchTest.oneColumn_invalid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="cbox.exercises.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="CodeBox" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="cbox.exercises" />
-      <option name="MAIN_CLASS_NAME" value="cbox.exercises.TableBinarySearchTest" />
-      <option name="METHOD_NAME" value="oneColumn_invalid" />
+      <option name="PACKAGE_NAME" value="cbox.datastructures" />
+      <option name="MAIN_CLASS_NAME" value="cbox.datastructures.LRUCacheHMTest" />
+      <option name="METHOD_NAME" value="addFour_extraOne" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -458,20 +458,45 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="TableStairSearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LRUCacheHMTest.addThree_repeatTwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="cbox.exercises.*" />
+          <option name="PATTERN" value="cbox.datastructures.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="CodeBox" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="cbox.exercises" />
-      <option name="MAIN_CLASS_NAME" value="cbox.exercises.TableStairSearchTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="cbox.datastructures" />
+      <option name="MAIN_CLASS_NAME" value="cbox.datastructures.LRUCacheHMTest" />
+      <option name="METHOD_NAME" value="addThree_repeatTwo" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="LRUCacheHMTest.addTwo_repeatTwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cbox.datastructures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="CodeBox" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="cbox.datastructures" />
+      <option name="MAIN_CLASS_NAME" value="cbox.datastructures.LRUCacheHMTest" />
+      <option name="METHOD_NAME" value="addTwo_repeatTwo" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -511,19 +536,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.TableStairSearchTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TableBinarySearchTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TableBinarySearchTest.oneColumn_invalid" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.IsSubstringTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.IsSubstringTest.invalidSubstring" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.LRUCacheHMTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.LRUCacheHMTest.addTwo_repeatTwo" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.LRUCacheHMTest.addThree_repeatTwo" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.LRUCacheHMTest.addFour_extraOne" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.LRUCacheHMTest.addFive_extraTwo_repeatOne" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.IsSubstringTest.invalidSubstring" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.IsSubstringTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TableBinarySearchTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TableBinarySearchTest.oneColumn_invalid" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TableStairSearchTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.LRUCacheHMTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.LRUCacheHMTest.addFive_extraTwo_repeatOne" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.LRUCacheHMTest.addFour_extraOne" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.LRUCacheHMTest.addThree_repeatTwo" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.LRUCacheHMTest.addTwo_repeatTwo" />
       </list>
     </recent_temporary>
   </component>
@@ -544,35 +569,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="IsSubstringTest - 2018.04.23 at 21h 16m 18s.xml">
-      <configuration name="IsSubstringTest" configurationId="JUnit" />
+    <history-entry file="LRUCacheHMTest - 2018.04.24 at 16h 33m 32s.xml">
+      <configuration name="LRUCacheHMTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IsSubstringTest_invalidSubstring - 2018.04.23 at 21h 17m 28s.xml">
-      <configuration name="IsSubstringTest.invalidSubstring" configurationId="JUnit" />
+    <history-entry file="LRUCacheHMTest - 2018.04.24 at 16h 37m 37s.xml">
+      <configuration name="LRUCacheHMTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TableBinarySearchTest - 2018.04.23 at 13h 15m 54s.xml">
-      <configuration name="TableBinarySearchTest" configurationId="JUnit" />
+    <history-entry file="LRUCacheHMTest - 2018.04.24 at 16h 55m 26s.xml">
+      <configuration name="LRUCacheHMTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TableBinarySearchTest - 2018.04.23 at 14h 12m 31s.xml">
-      <configuration name="TableBinarySearchTest" configurationId="JUnit" />
+    <history-entry file="LRUCacheHMTest_addFive_extraTwo_repeatOne - 2018.04.24 at 16h 43m 30s.xml">
+      <configuration name="LRUCacheHMTest.addFive_extraTwo_repeatOne" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TableBinarySearchTest - 2018.04.23 at 15h 49m 33s.xml">
-      <configuration name="TableBinarySearchTest" configurationId="JUnit" />
+    <history-entry file="LRUCacheHMTest_addFive_extraTwo_repeatOne - 2018.04.24 at 16h 44m 44s.xml">
+      <configuration name="LRUCacheHMTest.addFive_extraTwo_repeatOne" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TableBinarySearchTest - 2018.04.23 at 15h 57m 35s.xml">
-      <configuration name="TableBinarySearchTest" configurationId="JUnit" />
+    <history-entry file="LRUCacheHMTest_addFive_extraTwo_repeatOne - 2018.04.24 at 16h 45m 05s.xml">
+      <configuration name="LRUCacheHMTest.addFive_extraTwo_repeatOne" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TableBinarySearchTest - 2018.04.23 at 15h 59m 33s.xml">
-      <configuration name="TableBinarySearchTest" configurationId="JUnit" />
+    <history-entry file="LRUCacheHMTest_addFive_extraTwo_repeatOne - 2018.04.24 at 16h 55m 14s.xml">
+      <configuration name="LRUCacheHMTest.addFive_extraTwo_repeatOne" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TableBinarySearchTest_oneColumn_invalid - 2018.04.23 at 14h 10m 15s.xml">
-      <configuration name="TableBinarySearchTest.oneColumn_invalid" configurationId="JUnit" />
+    <history-entry file="LRUCacheHMTest_addFour_extraOne - 2018.04.24 at 16h 36m 57s.xml">
+      <configuration name="LRUCacheHMTest.addFour_extraOne" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TableBinarySearchTest_oneColumn_invalid - 2018.04.23 at 14h 10m 26s.xml">
-      <configuration name="TableBinarySearchTest.oneColumn_invalid" configurationId="JUnit" />
+    <history-entry file="LRUCacheHMTest_addFour_extraOne - 2018.04.24 at 16h 37m 30s.xml">
+      <configuration name="LRUCacheHMTest.addFour_extraOne" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TableBinarySearchTest_oneColumn_invalid - 2018.04.23 at 14h 12m 27s.xml">
-      <configuration name="TableBinarySearchTest.oneColumn_invalid" configurationId="JUnit" />
+    <history-entry file="LRUCacheHMTest_addThree_repeatTwo - 2018.04.24 at 16h 35m 06s.xml">
+      <configuration name="LRUCacheHMTest.addThree_repeatTwo" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -658,8 +683,14 @@
           <properties />
           <option name="timeStamp" value="49" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/tests/cbox/datastructures/LRUCacheHMTest.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="52" />
+      <option name="time" value="55" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -673,20 +704,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tests/cbox/datastructures/StackTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cbox/datastructures/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/cbox/exercises/FrequencySortTest.java" />
     <entry file="file://$PROJECT_DIR$/src/cbox/exercises/AnagramStrings.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1169,14 +1186,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cbox/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/cbox/exercises/TableStairSearchTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -1233,14 +1242,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cbox/exercises/ReverseStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/java.base/java/lang/StringLatin1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -1281,15 +1282,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cbox/datastructures/LRUCache.java">
+    <entry file="file://$PROJECT_DIR$/src/cbox/exercises/ReverseStack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-            <element signature="e#385#386#0" expanded="true" />
-          </folding>
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1298,6 +1295,18 @@
         <state relative-caret-position="238">
           <caret line="17" column="42" lean-forward="false" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cbox/datastructures/LRUCacheLHM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1317,6 +1326,65 @@
             <element signature="e#532#533#0" expanded="true" />
             <element signature="e#578#579#0" expanded="true" />
             <element signature="e#646#647#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cbox/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/cbox/datastructures/LRUCacheHMTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+            <element signature="e#595#596#0" expanded="true" />
+            <element signature="e#633#634#0" expanded="true" />
+            <element signature="e#705#706#0" expanded="true" />
+            <element signature="e#745#746#0" expanded="true" />
+            <element signature="e#823#824#0" expanded="true" />
+            <element signature="e#871#872#0" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
+            <element signature="e#990#991#0" expanded="true" />
+            <element signature="e#1065#1066#0" expanded="true" />
+            <element signature="e#1113#1114#0" expanded="true" />
+            <element signature="e#1194#1195#0" expanded="true" />
+            <element signature="e#1252#1253#0" expanded="true" />
+            <element signature="e#1336#1337#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cbox/datastructures/LRUCacheHM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="102" column="16" lean-forward="false" selection-start-line="102" selection-start-column="16" selection-end-line="102" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#Node#0;class#LRUCacheHM#0" expanded="false" />
+            <element signature="e#529#530#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+            <element signature="e#595#596#0" expanded="true" />
+            <element signature="e#629#630#0" expanded="true" />
+            <element signature="e#664#665#0" expanded="true" />
+            <element signature="e#699#700#0" expanded="true" />
+            <element signature="e#743#744#0" expanded="true" />
+            <element signature="e#783#784#0" expanded="true" />
+            <element signature="e#818#819#0" expanded="true" />
+            <element signature="e#853#854#0" expanded="true" />
+            <element signature="e#897#898#0" expanded="true" />
+            <element signature="e#937#938#0" expanded="true" />
+            <element signature="e#1088#1089#0" expanded="true" />
+            <element signature="e#1118#1119#0" expanded="true" />
+            <element signature="e#1153#1154#0" expanded="true" />
+            <element signature="e#1186#1187#0" expanded="true" />
           </folding>
         </state>
       </provider>

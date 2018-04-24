@@ -3,9 +3,9 @@ package cbox.datastructures;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-// Least Recently Used Cache.
+// Least recently used cache, implemented using a LinkedHashMap.
 // Contains a fixed set of values, removes the oldest first is size is exceeded.
-public class LRUCache<T, U> extends LinkedHashMap<T, U> {
+public class LRUCacheLHM<T, U> extends LinkedHashMap<T, U> {
     private int size;
 
     @Override
@@ -13,7 +13,7 @@ public class LRUCache<T, U> extends LinkedHashMap<T, U> {
         return size() > size;
     }
 
-    public LRUCache(int size) {
+    public LRUCacheLHM(int size) {
         super(size, 0.75f, true);
         this.size = size;
     }
