@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bb999888-d496-4404-935e-f8c32f61e668" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/cbox/datastructures/HashMap.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tests/cbox/datastructures/HashMapTest.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/src/cbox/concepts/JavaFundamentals.java" afterPath="$PROJECT_DIR$/src/cbox/concepts/JavaFundamentals.java" />
-      <change beforePath="$PROJECT_DIR$/src/cbox/datastructures/LRUCacheHM.java" afterPath="$PROJECT_DIR$/src/cbox/datastructures/LRUCacheHM.java" />
-    </list>
+    <list default="true" id="bb999888-d496-4404-935e-f8c32f61e668" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,10 +24,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="LRUCacheHM.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="LRUCacheHM.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/cbox/datastructures/LRUCacheHM.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="351">
+                <state relative-caret-position="850">
                   <caret line="50" column="12" lean-forward="false" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -59,10 +52,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="HashMap.java" pinned="false" current-in-tab="false">
+          <file leaf-file-name="HashMap.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/cbox/datastructures/HashMap.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="203">
+                <state relative-caret-position="204">
                   <caret line="43" column="36" lean-forward="true" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
                   <folding>
                     <element signature="class#Node#0;class#HashMap#0" expanded="false" />
@@ -1379,33 +1372,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cbox/datastructures/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="43" column="36" lean-forward="true" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
-          <folding>
-            <element signature="class#Node#0;class#HashMap#0" expanded="false" />
-            <element signature="method#Node#0;class#Node#0;class#HashMap#0" expanded="false" />
-            <element signature="e#470#471#0" expanded="true" />
-            <element signature="e#505#506#0" expanded="true" />
-            <element signature="e#539#540#0" expanded="true" />
-            <element signature="e#573#574#0" expanded="true" />
-            <element signature="e#608#609#0" expanded="true" />
-            <element signature="e#644#645#0" expanded="true" />
-            <element signature="e#689#690#0" expanded="true" />
-            <element signature="e#731#732#0" expanded="true" />
-            <element signature="e#763#764#0" expanded="true" />
-            <element signature="e#798#799#0" expanded="true" />
-            <element signature="e#839#840#0" expanded="true" />
-            <element signature="e#879#880#0" expanded="true" />
-            <element signature="method#HashMap#0;class#HashMap#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cbox/datastructures/LRUCacheHM.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
+        <state relative-caret-position="850">
           <caret line="50" column="12" lean-forward="false" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1425,6 +1394,30 @@
             <element signature="e#1100#1101#0" expanded="true" />
             <element signature="e#1135#1136#0" expanded="true" />
             <element signature="e#1168#1169#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cbox/datastructures/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="43" column="36" lean-forward="true" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
+          <folding>
+            <element signature="class#Node#0;class#HashMap#0" expanded="false" />
+            <element signature="method#Node#0;class#Node#0;class#HashMap#0" expanded="false" />
+            <element signature="e#470#471#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
+            <element signature="e#608#609#0" expanded="true" />
+            <element signature="e#644#645#0" expanded="true" />
+            <element signature="e#689#690#0" expanded="true" />
+            <element signature="e#731#732#0" expanded="true" />
+            <element signature="e#763#764#0" expanded="true" />
+            <element signature="e#798#799#0" expanded="true" />
+            <element signature="e#839#840#0" expanded="true" />
+            <element signature="e#879#880#0" expanded="true" />
+            <element signature="method#HashMap#0;class#HashMap#0" expanded="false" />
           </folding>
         </state>
       </provider>
