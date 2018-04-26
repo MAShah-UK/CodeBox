@@ -14,7 +14,7 @@
 * **Data Structures**
   * ArrayList - Dynamically resizing array.
   * BinarySearchTree - Stores data in tree structure. Each node points to two nodes with small.
-  * LinkedList - Each node points to next node.
+  * LinkedList - Each node points to right node.
   * LinkedListTable - Elements are added/accessed using row and column indicies. Table can be flattened into an array.
   * LRUCacheHM - LRU cache implemented using a HashMap. Elements are ordered and removed by access time.
   * LRUCacheLHM - Least recently used cache implemented using a LinkedHashMap.

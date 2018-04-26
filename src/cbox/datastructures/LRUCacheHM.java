@@ -1,6 +1,5 @@
 package cbox.datastructures;
 
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -14,25 +13,25 @@ public class LRUCacheHM<T> {
 
     private static class Node<T> {
         private T key;
-        private Node<T> prev;
-        private Node<T> next;
+        private Node<T> left;
+        private Node<T> right;
         public Node(T key) {
             this.key = key;
         }
         public T getKey() {
             return key;
         }
-        public Node<T> getPrev() {
-            return prev;
+        public Node<T> getLeft() {
+            return left;
         }
-        public void setPrev(Node<T> prev) {
-            this.prev = prev;
+        public void setLeft(Node<T> left) {
+            this.left = left;
         }
-        public Node<T> getNext() {
-            return next;
+        public Node<T> getRight() {
+            return right;
         }
-        public void setNext(Node<T> next) {
-            this.next = next;
+        public void setRight(Node<T> right) {
+            this.right = right;
         }
     }
 
@@ -49,21 +48,19 @@ public class LRUCacheHM<T> {
         return map.size();
     }
 
+    // TODO.
     public T get(T key) {
         Node<T> node = map.get(key);
         if(node == null) {
             return null;
         }
         remove(node, false);
-        addToEnd(node);
+        addToEnd(node, false);
         return node.getKey();
     }
 
     public void put(T key) {
         Node<T> node = new Node<>(key);
-        if(map.size() >= maxSize) {
-            remove(head, true);
-        }
         if(head == null) {
             head = node;
             tail = node;
@@ -72,35 +69,69 @@ public class LRUCacheHM<T> {
             Node<T> exists = map.get(key);
             if(exists != tail) {
                 if(exists == null) {
+                    tail.setRight(node);
+                    node.setLeft(tail);
+                    tail = node;
                     map.put(key, node);
-                    exists = node;
                 } else {
-                    remove(exists, false);
+                    Node<T> left = exists.getLeft();
+                    Node<T> right = exists.getRight();
+                    if(left != null) {
+                        left.setRight(right);
+                    } else {
+                        head = head.getRight();
+                        if(head == null) {
+                            tail = null;
+                        }
+                    }
+                    if(right != null) {
+                        right.setLeft(left);
+                    }
+
+                    tail.setRight(exists);
+                    exists.setLeft(tail);
+                    exists.setRight(null);
+                    tail = exists;
                 }
-                addToEnd(exists);
             }
+        }
+        if(map.size() > maxSize) {
+            head = head.getRight();
+            head.setLeft(null);
+            if(head == null) {
+                tail = null;
+            }
+            map.remove(key);
         }
     }
 
-    private void addToEnd(Node<T> node) {
-        tail.setNext(node);
-        node.setPrev(tail);
-        tail = node;
+    private void addToEnd(Node<T> node, boolean toMap) {
+        if(tail == null) {
+            tail = node;
+        } else {
+            tail.setRight(node);
+            node.setLeft(tail);
+            node.setRight(null);
+            tail = node;
+        }
+        if(toMap) {
+            map.put(node.getKey(), node);
+        }
     }
 
     private void remove(Node<T> node, boolean fromMap) {
-        Node<T> prev = node.getPrev();
-        Node<T> next = node.getNext();
-        if(prev != null) {
-            prev.setNext(next);
-        } else { // node is head node.
-            head = head.getNext();
+        Node<T> left = node.getLeft();
+        Node<T> right = node.getRight();
+        if(left != null) {
+            left.setRight(right);
+        } else {
+            head = head.getRight();
             if(head == null) {
                 tail = null;
             }
         }
-        if(next != null) {
-            next.setPrev(prev);
+        if(right != null) {
+            right.setLeft(left);
         }
         if(fromMap) {
             map.remove(node.getKey());
@@ -112,7 +143,7 @@ public class LRUCacheHM<T> {
         int idx = 0;
         while(curr != null && idx < array.length) {
             array[idx] = curr.getKey();
-            curr = curr.getNext();
+            curr = curr.getRight();
             idx++;
         }
         return array;

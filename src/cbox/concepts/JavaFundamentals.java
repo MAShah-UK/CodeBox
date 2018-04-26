@@ -179,7 +179,7 @@ public class JavaFundamentals {
         // This is achieved by pointing a superclass reference to a subclass object.
         // - Use overridden methods to take advantage of polymorphism.
         // - Can write generic code to deal with all types of subclasses.
-        // - Maximised code-reuse, minimises code-duplication.
+        // - Maximises code-reuse, minimises code-duplication.
 
         // BankAccount references can point to CurrentAccount or SavingsAccount objects.
         List<BankAccount> accounts = new ArrayList<>();
