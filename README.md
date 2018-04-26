@@ -13,10 +13,11 @@
   * JavaFundamentals - Abstraction, encapsulation, inheritance, polymorphism.
 * **Data Structures**
   * ArrayList - Dynamically resizing array.
-  * BinarySearchTree - Stores data in tree structure. Each node points to two nodes with small.
+  * BinarySearchTree - Stores data in tree structure. Each node points to two further nodes. Search time complexity O(logn).
+  * HashMap - Stores data in buckets/arrays using a hashcode. Get and put operations complete in O(1) in best case.
   * LinkedList - Each node points to next node.
   * LinkedListTable - Elements are added/accessed using row and column indicies. Table can be flattened into an array.
-  * LRUCacheHM - LRU cache implemented using a HashMap. Elements are ordered and removed by access time.
+  * LRUCacheHM - LRU cache implemented using a HashMap. Elements are ordered, and removed, by access time.
   * LRUCacheLHM - Least recently used cache implemented using a LinkedHashMap.
   * MinStack - Returns minimum element in O(1) time. Uses another stack to keep track of minimum value.
   * Queue - First in first out data structure. Uses head and tail references to manage both ends of a list of nodes.
