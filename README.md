@@ -13,7 +13,7 @@
   * JavaFundamentals - Abstraction, encapsulation, inheritance, polymorphism.
 * **Data Structures**
   * ArrayList - Dynamically resizing array.
-  * BinarySearchTree - Stores data in tree structure. Each node points to two further nodes. Search time complexity O(logn).
+  * BinarySearchTree - Stores data in tree structure. Each node points to two further nodes. Searches in O(logn).
   * HashMap - Stores data in buckets/arrays using a hashcode. Get and put operations complete in O(1) in best case.
   * LinkedList - Each node points to next node.
   * LinkedListTable - Elements are added/accessed using row and column indicies. Table can be flattened into an array.
